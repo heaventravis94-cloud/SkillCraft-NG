@@ -2963,7 +2963,7 @@ export const activities: Activity[] = [
     troubleshooting: [
       "If bin smells, it's too wet or has too much food; add more dry bedding and reduce food",
       "If worms are trying to escape, the bin might be too wet, too dry, or have too much food",
-      "If fruit flies appear, bury food scraps deeper and ensure good ventilation"
+      "If fruit flies appear, bury food scraps deeper and ensure bin is secure"
     ]
   },
   {
@@ -3499,7 +3499,7 @@ export const activities: Activity[] = [
       "If legal jargon is confusing, look up terms you don't understand",
       "If a contract seems too complex, ask for a simpler explanation or seek legal counsel",
       "If you feel pressured to sign, take time to review it thoroughly"
-    ]
+    ],
   },
   {
     id: 167,
@@ -3688,6 +3688,1090 @@ export const activities: Activity[] = [
       "If concepts are confusing, look for beginner-friendly explanations and visual aids",
       "If you're overwhelmed by technical jargon, focus on the high-level concepts first",
       "If you're concerned about AI's impact, research different perspectives and engage in discussions"
+    ]
+  },
+  // --- NEW ACTIVITIES START HERE (ID 176 to 225) ---
+
+  // Life & Independence Skills (5 new)
+  {
+    id: 176,
+    title: "Basic First Aid for Cuts & Scrapes",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Antiseptic wipes", "Band-aids", "Gauze pads", "Medical tape", "Gloves"],
+    safetyNotes: "Always wash hands before and after treating wounds. Seek professional medical help for deep cuts or persistent bleeding.",
+    steps: [
+      "Wash your hands thoroughly with soap and water.",
+      "Gently clean the wound with mild soap and water or an antiseptic wipe.",
+      "Apply a clean gauze pad to the wound to stop any bleeding.",
+      "Cover the wound with a sterile band-aid or gauze secured with medical tape.",
+      "Change the dressing daily or if it becomes wet or dirty."
+    ],
+    troubleshooting: [
+      "If bleeding doesn't stop, apply direct pressure and seek medical attention.",
+      "If signs of infection appear (redness, swelling, pus), consult a doctor.",
+      "If allergic reaction to adhesive, try hypoallergenic bandages."
+    ]
+  },
+  {
+    id: 177,
+    title: "Understanding Food Labels",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Various food packages", "Smartphone (for research)"],
+    steps: [
+      "Locate the Nutrition Facts panel on a food package.",
+      "Identify serving size and servings per container.",
+      "Understand calories, total fat, saturated fat, trans fat, cholesterol, sodium, total carbohydrates, dietary fiber, sugars, and protein.",
+      "Look for ingredients list and identify common allergens.",
+      "Compare labels of similar products to make informed choices."
+    ],
+    troubleshooting: [
+      "If terms are confusing, use a reliable online resource to look them up.",
+      "If labels are too small to read, use a magnifying glass or phone camera zoom.",
+      "If comparing many products, take photos of labels for easier review."
+    ]
+  },
+  {
+    id: 178,
+    title: "Basic Home Fire Safety Plan",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Paper", "Pen", "Floor plan of your home", "Smoke detector", "Fire extinguisher"],
+    safetyNotes: "Ensure smoke detectors are working and fire extinguishers are charged. Practice escape routes regularly.",
+    steps: [
+      "Draw a floor plan of your home, marking all doors and windows.",
+      "Identify two escape routes from each room.",
+      "Designate a safe meeting point outside your home.",
+      "Test smoke detectors monthly and change batteries annually.",
+      "Learn how to use a fire extinguisher (PASS method: Pull, Aim, Squeeze, Sweep).",
+      "Practice your escape plan with all household members."
+    ],
+    troubleshooting: [
+      "If smoke detector chirps, replace batteries immediately.",
+      "If fire extinguisher is expired or discharged, replace it.",
+      "If escape routes are blocked, find alternative exits or clear obstructions."
+    ]
+  },
+  {
+    id: 179,
+    title: "Simple Budgeting with the 50/30/20 Rule",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Income statements", "Expense records", "Calculator", "Spreadsheet or budgeting app"],
+    steps: [
+      "Calculate your total monthly after-tax income.",
+      "Allocate 50% of your income to 'Needs' (housing, utilities, groceries, transportation).",
+      "Allocate 30% to 'Wants' (dining out, entertainment, hobbies, shopping).",
+      "Allocate 20% to 'Savings & Debt Repayment' (emergency fund, investments, extra debt payments).",
+      "Track your spending for a month to see if it aligns with these percentages.",
+      "Adjust your spending habits to fit the rule, if necessary."
+    ],
+    troubleshooting: [
+      "If 'Needs' exceed 50%, look for ways to reduce essential expenses or increase income.",
+      "If you struggle to cut 'Wants', prioritize what brings you the most value.",
+      "If you can't reach 20% for savings, start with a smaller percentage and gradually increase."
+    ]
+  },
+  {
+    id: 180,
+    title: "Basic Cyber Hygiene: Password Management",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "25 mins",
+    supplies: ["Password manager app/software", "List of online accounts"],
+    steps: [
+      "Understand the importance of strong, unique passwords for each online account.",
+      "Learn to create complex passwords (mix of upper/lower case, numbers, symbols, minimum 12 characters).",
+      "Install and set up a reputable password manager (e.g., LastPass, Bitwarden, 1Password).",
+      "Migrate your existing passwords to the password manager, updating weak ones.",
+      "Enable two-factor authentication (2FA) wherever possible for added security.",
+      "Regularly review your password manager for any compromised passwords."
+    ],
+    troubleshooting: [
+      "If you forget your master password, follow the recovery steps for your password manager.",
+      "If a website doesn't support 2FA, use an extra strong, unique password.",
+      "If you're hesitant about a password manager, research its security features and reviews."
+    ]
+  },
+
+  // Basic Cooking for Teens (5 new)
+  {
+    id: 181,
+    title: "Perfect Hard-Boiled Eggs",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Eggs", "Pot with lid", "Water", "Ice bath", "Slotted spoon"],
+    steps: [
+      "Place eggs in a single layer in a pot.",
+      "Cover eggs with about an inch of cold water.",
+      "Bring water to a rolling boil over high heat.",
+      "Once boiling, immediately turn off heat, cover the pot, and let sit for 12 minutes (for large eggs).",
+      "Prepare an ice bath (bowl of ice water).",
+      "Transfer eggs to the ice bath with a slotted spoon and let cool for 5 minutes before peeling."
+    ],
+    troubleshooting: [
+      "If eggs are difficult to peel, try adding a teaspoon of baking soda to the boiling water.",
+      "If yolks are green, you overcooked them; reduce sitting time next time.",
+      "If eggs crack during boiling, add a pinch of salt to the water."
+    ]
+  },
+  {
+    id: 182,
+    title: "Simple Roasted Vegetables",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Assorted vegetables (broccoli, carrots, bell peppers)", "Olive oil", "Salt", "Pepper", "Baking sheet", "Mixing bowl"],
+    steps: [
+      "Preheat oven to 400°F (200°C).",
+      "Wash and chop vegetables into similar-sized pieces.",
+      "In a mixing bowl, toss vegetables with olive oil, salt, and pepper.",
+      "Spread vegetables in a single layer on a baking sheet (don't overcrowd).",
+      "Roast for 20-25 minutes, flipping halfway, until tender and slightly caramelized.",
+      "Serve immediately as a side dish or add to other meals."
+    ],
+    troubleshooting: [
+      "If vegetables are soggy, ensure they are not overcrowded on the baking sheet.",
+      "If vegetables burn, reduce oven temperature or cooking time.",
+      "If bland, add herbs (rosemary, thyme) or garlic powder before roasting."
+    ]
+  },
+  {
+    id: 183,
+    title: "Homemade Vinaigrette Dressing",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "5 mins",
+    supplies: ["Olive oil", "Vinegar (red wine, apple cider, or balsamic)", "Dijon mustard", "Salt", "Pepper", "Whisk", "Small bowl or jar with lid"],
+    steps: [
+      "In a small bowl or jar, combine 1 part vinegar, 2-3 parts olive oil.",
+      "Add a teaspoon of Dijon mustard (emulsifier), a pinch of salt, and pepper.",
+      "Whisk vigorously until well combined and slightly thickened (or shake if using a jar).",
+      "Taste and adjust seasonings (more oil for less tang, more salt/pepper).",
+      "Store in an airtight container in the refrigerator for up to a week.",
+      "Shake well before each use."
+    ],
+    troubleshooting: [
+      "If dressing separates, whisk/shake again vigorously.",
+      "If too acidic, add a tiny pinch of sugar or more oil.",
+      "If too bland, add minced garlic, dried herbs, or a squeeze of lemon juice."
+    ]
+  },
+  {
+    id: 184,
+    title: "Quick Chicken Stir-Fry",
+    category: "Cooking",
+    difficulty: "Intermediate",
+    time: "30 mins",
+    supplies: ["Chicken breast", "Assorted vegetables (bell peppers, snap peas, carrots)", "Soy sauce", "Ginger", "Garlic", "Sesame oil", "Wok or large skillet", "Rice (pre-cooked)"],
+    steps: [
+      "Slice chicken breast into thin strips and chop vegetables.",
+      "Mince ginger and garlic.",
+      "Heat sesame oil in a wok or large skillet over high heat.",
+      "Add chicken and stir-fry until cooked through, then remove from pan.",
+      "Add vegetables to the pan and stir-fry until tender-crisp.",
+      "Return chicken to the pan, add soy sauce, ginger, and garlic, stir-fry for 1-2 minutes.",
+      "Serve immediately over rice."
+    ],
+    troubleshooting: [
+      "If stir-fry is watery, ensure pan is hot enough and don't overcrowd it.",
+      "If chicken is dry, don't overcook it; remove from pan as soon as it's done.",
+      "If flavors are bland, add a dash of chili garlic sauce or a squeeze of lime."
+    ]
+  },
+  {
+    id: 185,
+    title: "Baking Simple Chocolate Chip Cookies",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "40 mins",
+    supplies: ["Butter", "Sugar (granulated & brown)", "Eggs", "Vanilla extract", "All-purpose flour", "Baking soda", "Salt", "Chocolate chips", "Mixing bowls", "Electric mixer (optional)", "Baking sheet", "Parchment paper"],
+    safetyNotes: "Be careful with hot oven and baking sheets. Do not eat raw cookie dough containing raw eggs.",
+    steps: [
+      "Preheat oven to 375°F (190°C). Line a baking sheet with parchment paper.",
+      "Cream together softened butter, granulated sugar, and brown sugar until light and fluffy.",
+      "Beat in eggs one at a time, then stir in vanilla extract.",
+      "In a separate bowl, whisk together flour, baking soda, and salt.",
+      "Gradually add dry ingredients to wet ingredients, mixing until just combined.",
+      "Stir in chocolate chips. Drop rounded spoonfuls onto the prepared baking sheet.",
+      "Bake for 9-11 minutes, or until edges are golden brown and centers are still soft.",
+      "Let cool on the baking sheet for a few minutes before transferring to a wire rack."
+    ],
+    troubleshooting: [
+      "If cookies spread too much, chill the dough for 30 minutes before baking.",
+      "If cookies are too hard, you overbaked them; reduce baking time next time.",
+      "If cookies don't spread, butter might be too cold or too much flour was used."
+    ]
+  },
+
+  // Meal Prep Basics (5 new)
+  {
+    id: 186,
+    title: "Overnight Oats for Breakfast Prep",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "10 mins (plus overnight chilling)",
+    supplies: ["Rolled oats", "Milk (dairy or non-dairy)", "Chia seeds", "Sweetener (maple syrup, honey)", "Fruit/nuts (optional)", "Mason jars with lids"],
+    steps: [
+      "In a mason jar, combine 1/2 cup rolled oats, 1/2 cup milk, 1 tablespoon chia seeds, and 1-2 teaspoons sweetener.",
+      "Stir well to combine, ensuring no clumps of chia seeds.",
+      "Add any desired toppings like berries, sliced banana, or nuts.",
+      "Seal the jar tightly with a lid.",
+      "Refrigerate overnight (or for at least 4 hours).",
+      "In the morning, stir and enjoy cold. Add more milk if too thick."
+    ],
+    troubleshooting: [
+      "If too thick, add more milk in the morning.",
+      "If too thin, add more chia seeds and let sit longer.",
+      "If bland, experiment with different sweeteners, spices (cinnamon), or fruit combinations."
+    ]
+  },
+  {
+    id: 187,
+    title: "Hard-Boiled Egg Meal Prep",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Eggs", "Pot with lid", "Ice bath", "Airtight container"],
+    steps: [
+      "Prepare a batch of hard-boiled eggs (refer to Activity 181 for instructions).",
+      "Ensure eggs are fully cooled in an ice bath.",
+      "Gently pat dry the cooled eggs.",
+      "Store peeled or unpeeled hard-boiled eggs in an airtight container in the refrigerator.",
+      "Use within 5-7 days for quick snacks, salads, or breakfast additions."
+    ],
+    troubleshooting: [
+      "If eggs spoil quickly, ensure they are fully cooked and stored properly.",
+      "If peeling is difficult, try peeling under running water.",
+      "If you forget when they were made, write the date on the container."
+    ]
+  },
+  {
+    id: 188,
+    title: "Prepping Smoothie Packs",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Assorted frozen fruits", "Spinach/kale", "Protein powder (optional)", "Seeds (chia, flax)", "Zip-top freezer bags"],
+    steps: [
+      "Gather your favorite smoothie ingredients (e.g., berries, banana, spinach).",
+      "Portion out ingredients for one smoothie into individual zip-top freezer bags.",
+      "Ensure all air is removed from the bags before sealing.",
+      "Store the smoothie packs in the freezer.",
+      "When ready for a smoothie, simply empty a pack into a blender, add liquid (milk/water/juice), and blend.",
+      "Label bags with contents and date for easy identification."
+    ],
+    troubleshooting: [
+      "If ingredients stick together, freeze fruit in a single layer on a tray first.",
+      "If smoothies are too thick/thin, adjust liquid amount when blending.",
+      "If bags get freezer burn, ensure they are airtight and use within 1-2 months."
+    ]
+  },
+  {
+    id: 189,
+    title: "Batch Cooking Quinoa",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "25 mins",
+    supplies: ["Quinoa", "Water or broth", "Fine-mesh strainer", "Pot with lid", "Airtight containers"],
+    steps: [
+      "Rinse quinoa thoroughly under cold running water in a fine-mesh strainer until water runs clear.",
+      "Combine 1 part rinsed quinoa with 2 parts water or broth in a pot.",
+      "Bring to a boil, then reduce heat to low, cover, and simmer for 15 minutes, or until all liquid is absorbed.",
+      "Remove from heat and let stand, covered, for 5 minutes.",
+      "Fluff with a fork. Let cool completely before storing in airtight containers in the fridge.",
+      "Use as a base for salads, bowls, or as a side dish for up to 5 days."
+    ],
+    troubleshooting: [
+      "If quinoa is bitter, rinse it more thoroughly before cooking.",
+      "If mushy, use slightly less liquid next time or cook for less time.",
+      "If crunchy, add a little more liquid and cook for a few more minutes."
+    ]
+  },
+  {
+    id: 190,
+    title: "Prepping Salad Dressings & Dips",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Ingredients for various dressings/dips", "Small jars or airtight containers", "Whisk"],
+    steps: [
+      "Choose 2-3 dressings or dips you want to prep (e.g., vinaigrette, hummus, yogurt dip).",
+      "Gather all ingredients and measure them out.",
+      "Prepare each dressing/dip according to its recipe (e.g., whisking vinaigrette, blending hummus).",
+      "Store each in a separate, airtight jar or container in the refrigerator.",
+      "Label with the name and date of preparation.",
+      "Shake or stir well before serving. Most last 5-7 days."
+    ],
+    troubleshooting: [
+      "If dressings separate, whisk/shake vigorously before use.",
+      "If dips become dry, add a tablespoon of water or olive oil and stir.",
+      "If flavors are off, adjust seasonings (salt, acid, herbs) to your preference."
+    ]
+  },
+
+  // Laundry and Clothing Care (5 new)
+  {
+    id: 191,
+    title: "Removing Pet Hair from Clothes",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Lint roller", "Rubber gloves", "Damp sponge", "Dryer sheets"],
+    steps: [
+      "For quick removal, use a lint roller over the affected areas.",
+      "For stubborn hair, put on rubber gloves and rub your hands over the fabric; the hair will cling to the gloves.",
+      "Alternatively, use a slightly damp sponge to wipe down the clothing.",
+      "Before washing, put clothes in the dryer with a dryer sheet for 10 minutes on a no-heat setting to loosen hair.",
+      "After drying, clean the lint trap thoroughly.",
+      "For prevention, regularly brush pets and vacuum furniture."
+    ],
+    troubleshooting: [
+      "If lint roller isn't effective, try a stronger adhesive type or a reusable pet hair remover.",
+      "If hair remains after dryer cycle, repeat with a fresh dryer sheet.",
+      "If clothes are delicate, avoid harsh rubbing; use a gentle lint roller."
+    ]
+  },
+  {
+    id: 192,
+    title: "Care for Delicates (Lingerie, Silk)",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Mild detergent (for delicates)", "Mesh laundry bag", "Basin/sink", "Clean towel"],
+    steps: [
+      "Check care labels: hand wash or machine wash on delicate cycle.",
+      "If machine washing, place items in a mesh laundry bag to protect them.",
+      "Use a mild detergent specifically designed for delicates.",
+      "If hand washing (refer to Activity 61), gently swish in cool water, do not wring.",
+      "Rinse thoroughly with cool water.",
+      "Gently press out excess water, then lay flat on a clean towel or hang to air dry (avoid direct sunlight/heat)."
+    ],
+    troubleshooting: [
+      "If items lose shape, reshape them gently while damp and lay flat to dry.",
+      "If colors bleed, wash separately in cold water.",
+      "If fabric feels stiff, use a fabric conditioner designed for delicates."
+    ]
+  },
+  {
+    id: 193,
+    title: "Organizing Your Closet for Efficiency",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "90 mins",
+    supplies: ["Hangers (matching)", "Drawer dividers", "Storage bins", "Donation bag", "Trash bag"],
+    steps: [
+      "Empty your closet completely and clean the space.",
+      "Sort all clothing into categories: Keep, Donate, Repair, Trash.",
+      "For 'Keep' items, organize by type (shirts, pants, dresses) and then by color.",
+      "Use matching hangers for a uniform look and to save space.",
+      "Fold items that don't need to be hung (sweaters, t-shirts) and use drawer dividers.",
+      "Store seasonal items or rarely used items in bins on high shelves or under the bed."
+    ],
+    troubleshooting: [
+      "If you have too many clothes, apply the 'one year rule' (if you haven't worn it in a year, consider donating).",
+      "If space is still an issue, consider vacuum storage bags for bulky items.",
+      "If closet gets messy quickly, implement a 'one in, one out' rule for new purchases."
+    ]
+  },
+  {
+    id: 194,
+    title: "Basic Shoe Cleaning & Deodorizing",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Shoe brush", "Mild soap/shoe cleaner", "Damp cloth", "Baking soda", "Old newspaper"],
+    steps: [
+      "Remove laces and insoles from shoes.",
+      "Brush off loose dirt and debris from the exterior.",
+      "Clean the shoe surface with a damp cloth and mild soap or a specialized shoe cleaner (test on an inconspicuous area first).",
+      "For deodorizing, sprinkle baking soda inside the shoes and insoles; let sit overnight, then shake out.",
+      "Stuff shoes with old newspaper to absorb moisture and maintain shape while drying.",
+      "Clean laces separately by hand washing or machine washing in a mesh bag."
+    ],
+    troubleshooting: [
+      "If stains persist, try a stronger cleaner specific to the shoe material.",
+      "If odor remains, repeat baking soda treatment or use shoe deodorizer sprays.",
+      "If shoes get wet, dry them thoroughly to prevent mold and odor."
+    ]
+  },
+  {
+    id: 195,
+    title: "Understanding Laundry Symbols",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Clothing items with care labels", "Smartphone (for quick lookup)"],
+    steps: [
+      "Locate the care label on a piece of clothing (usually inside a seam).",
+      "Identify the five basic symbols: wash, bleach, dry, iron, and dry clean.",
+      "Learn what each symbol means (e.g., tub with water = wash, triangle = bleach, square = dry).",
+      "Understand variations within symbols (e.g., dots for temperature, lines for cycles).",
+      "Use an online guide or app to quickly look up unfamiliar symbols.",
+      "Apply this knowledge to sort and wash your clothes correctly."
+    ],
+    troubleshooting: [
+      "If a label is missing or unreadable, err on the side of caution and wash on a gentle, cold cycle.",
+      "If you're unsure about a specific fabric, research its care requirements.",
+      "If clothes are damaged after washing, review the care label and adjust your method."
+    ]
+  },
+
+  // Cleaning and Organization (5 new)
+  {
+    id: 196,
+    title: "Speed Cleaning a Room in 15 Minutes",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Laundry basket", "Trash bag", "All-purpose cleaner", "Microfiber cloth"],
+    steps: [
+      "Start by quickly picking up all clutter and putting it in a laundry basket or designated spot.",
+      "Grab a trash bag and throw away any garbage.",
+      "Dust surfaces: quickly wipe down visible dust from furniture, shelves, and electronics.",
+      "Wipe down high-touch surfaces: use all-purpose cleaner on doorknobs, light switches, and tabletops.",
+      "Fluff pillows and straighten blankets on beds/couches.",
+      "Do a quick sweep or vacuum of the most visible floor areas."
+    ],
+    troubleshooting: [
+      "If room is too messy for 15 minutes, break it into smaller sections or dedicate more time.",
+      "If you get distracted, set a timer and focus on one task at a time.",
+      "If supplies aren't handy, create a portable cleaning caddy."
+    ]
+  },
+  {
+    id: 197,
+    title: "Organizing Your Refrigerator & Pantry",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Trash bags", "Cleaning spray", "Cloths", "Storage bins/containers", "Labels"],
+    steps: [
+      "Empty your refrigerator/pantry completely, discarding expired or spoiled items.",
+      "Wipe down all shelves and drawers with a cleaning spray and cloth.",
+      "Group similar items together (e.g., dairy, produce, snacks, canned goods).",
+      "Use clear storage bins or containers to keep items organized and visible.",
+      "Label shelves or bins for easy identification and to maintain the system.",
+      "Place newer items behind older ones (first-in, first-out) to reduce waste."
+    ],
+    troubleshooting: [
+      "If food spoils quickly, check fridge temperature and ensure airtight storage.",
+      "If pantry gets messy, use clear containers to see contents at a glance.",
+      "If space is limited, consider vertical storage solutions or declutter regularly."
+    ]
+  },
+  {
+    id: 198,
+    title: "Cleaning Your Microwave",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Microwave-safe bowl", "Water", "White vinegar", "Lemon slices (optional)", "Sponge/cloth"],
+    steps: [
+      "In a microwave-safe bowl, combine 1 cup water and 2 tablespoons white vinegar (add lemon slices for scent, if desired).",
+      "Place the bowl in the microwave and heat on high for 5 minutes, or until the mixture is boiling and the window is steamy.",
+      "Let the bowl sit in the closed microwave for another 5 minutes to allow the steam to loosen grime.",
+      "Carefully remove the hot bowl (use oven mitts!).",
+      "Wipe down the interior of the microwave with a damp sponge or cloth. Grime should come off easily.",
+      "Clean the turntable separately with soap and water."
+    ],
+    troubleshooting: [
+      "If stubborn stains remain, make a paste of baking soda and water, apply, let sit, then wipe.",
+      "If microwave still smells, repeat the process with more lemon or a few drops of essential oil.",
+      "If the bowl is too hot, let it cool longer before removing."
+    ]
+  },
+  {
+    id: 199,
+    title: "Basic Floor Sweeping & Mopping",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Broom", "Dustpan", "Mop", "Bucket", "Floor cleaner", "Warm water"],
+    steps: [
+      "Clear the floor of any small items, rugs, or furniture that can be easily moved.",
+      "Use a broom and dustpan to sweep all loose dirt, dust, and debris into a pile, starting from the edges and working towards the center.",
+      "Prepare your mop bucket with warm water and the recommended amount of floor cleaner.",
+      "Mop the floor in sections, rinsing the mop frequently in the bucket.",
+      "Allow the floor to air dry completely before walking on it or replacing items.",
+      "Empty and rinse the mop bucket and clean the mop head."
+    ],
+    troubleshooting: [
+      "If broom leaves streaks, ensure it's clean and not too worn.",
+      "If mop leaves streaks, use less cleaner or rinse the mop more thoroughly.",
+      "If floor is still sticky, it might be too much cleaner; re-mop with just warm water."
+    ]
+  },
+  {
+    id: 200,
+    title: "Dusting & Wiping Down Surfaces",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Microfiber cloths (dry and damp)", "All-purpose cleaner or furniture polish", "Feather duster (optional)"],
+    steps: [
+      "Start from the highest points in the room and work your way down to let dust fall.",
+      "Use a dry microfiber cloth or feather duster to remove loose dust from surfaces (shelves, tables, electronics).",
+      "For dirtier or sticky surfaces, spray a small amount of all-purpose cleaner onto a damp microfiber cloth (not directly on furniture).",
+      "Wipe down surfaces, paying attention to high-touch areas like doorknobs and light switches.",
+      "For wood furniture, use a furniture polish on a cloth and buff gently.",
+      "Rinse and wring out cloths after use."
+    ],
+    troubleshooting: [
+      "If dust resettles quickly, consider using an air purifier or dusting more frequently.",
+      "If cloths leave lint, use higher quality microfiber cloths.",
+      "If furniture polish leaves residue, use less product or buff more thoroughly."
+    ]
+  },
+
+  // Time Management (5 new)
+  {
+    id: 201,
+    title: "Creating an Effective To-Do List",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Notebook/app", "Pen"],
+    steps: [
+      "Brainstorm all tasks you need to complete, no matter how small.",
+      "Break down large tasks into smaller, actionable steps.",
+      "Prioritize tasks using a simple system (e.g., A, B, C or 1, 2, 3 for importance/urgency).",
+      "Estimate the time each task will take.",
+      "Place your to-do list where it's easily visible.",
+      "Cross off tasks as you complete them for a sense of accomplishment."
+    ],
+    troubleshooting: [
+      "If list becomes overwhelming, focus on 3-5 high-priority tasks per day.",
+      "If tasks are consistently left undone, re-evaluate their size or your time estimates.",
+      "If you forget to check your list, integrate it into your morning or evening routine."
+    ]
+  },
+  {
+    id: 202,
+    title: "Managing Digital Distractions",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Smartphone", "Computer", "Focus apps (optional)"],
+    steps: [
+      "Identify your biggest digital distractions (social media, notifications, endless browsing).",
+      "Turn off non-essential notifications on your phone and computer.",
+      "Use 'Do Not Disturb' modes during focused work periods.",
+      "Set specific times for checking emails and social media, rather than constantly checking.",
+      "Consider using website blockers or focus apps (e.g., Forest, Freedom) to limit access to distracting sites.",
+      "Keep your phone out of sight and reach when you need to concentrate."
+    ],
+    troubleshooting: [
+      "If you find yourself instinctively reaching for your phone, try placing it in another room.",
+      "If website blockers are too restrictive, start with shorter blocking periods.",
+      "If you need your phone for work, use app-specific notification settings."
+    ]
+  },
+  {
+    id: 203,
+    title: "Batching Similar Tasks",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["To-do list", "Calendar/planner"],
+    steps: [
+      "Review your to-do list and identify tasks that are similar in nature or require the same tools/mindset.",
+      "Group these similar tasks together (e.g., all emails, all phone calls, all errands, all creative work).",
+      "Allocate a specific block of time in your schedule to complete all tasks within a single batch.",
+      "Minimize switching between different types of tasks during this block.",
+      "Notice the increased efficiency and reduced mental fatigue.",
+      "Apply this technique to both work and personal tasks."
+    ],
+    troubleshooting: [
+      "If batches are too long, break them into smaller, more focused batches.",
+      "If you struggle to stay focused on one batch, eliminate distractions (refer to Activity 202).",
+      "If you forget to batch, integrate it into your weekly planning routine."
+    ]
+  },
+  {
+    id: 204,
+    title: "Setting Boundaries for Work-Life Balance",
+    category: "Time Management",
+    difficulty: "Intermediate",
+    time: "40 mins",
+    supplies: ["Notebook", "Pen", "Calendar"],
+    steps: [
+      "Reflect on your current work-life balance and identify areas of imbalance.",
+      "Determine your ideal work hours and non-negotiable personal time (e.g., family dinner, hobbies).",
+      "Communicate your boundaries clearly to colleagues, friends, and family.",
+      "Set up 'off-limits' times for checking work emails or taking calls.",
+      "Schedule dedicated time for self-care, relaxation, and social activities.",
+      "Be firm and consistent in upholding your boundaries, even when challenged."
+    ],
+    troubleshooting: [
+      "If others don't respect boundaries, gently remind them of your commitments.",
+      "If you feel guilty setting boundaries, remember it's essential for your well-being.",
+      "If work demands are too high, discuss workload with your supervisor or explore delegation options."
+    ]
+  },
+  {
+    id: 205,
+    title: "Using a Calendar Effectively",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Digital calendar (Google, Outlook) or physical planner", "Pen"],
+    steps: [
+      "Choose one primary calendar system (digital or physical) and stick to it.",
+      "Input all fixed appointments, meetings, and deadlines.",
+      "Schedule dedicated blocks of time for important tasks and projects (time blocking).",
+      "Include personal appointments, self-care, and leisure activities.",
+      "Color-code different types of events (e.g., work, personal, study) for quick visual reference.",
+      "Review your calendar daily and weekly to stay on track and anticipate upcoming commitments."
+    ],
+    troubleshooting: [
+      "If you miss appointments, set multiple reminders for critical events.",
+      "If calendar is too cluttered, use fewer colors or hide less important calendars.",
+      "If you struggle to estimate time, track actual time spent on tasks for a week."
+    ]
+  },
+
+  // Budgeting Basics (5 new)
+  {
+    id: 206,
+    title: "Tracking Subscriptions & Recurring Bills",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Bank statements", "Credit card statements", "Spreadsheet or app"],
+    steps: [
+      "Gather all your bank and credit card statements from the last 3-6 months.",
+      "Go through each statement and list all recurring subscriptions (streaming, apps, gym) and bills (utilities, rent, loans).",
+      "Note the cost and renewal date for each.",
+      "Identify any subscriptions you no longer use or can live without.",
+      "Cancel unnecessary subscriptions to save money.",
+      "Create a master list or use an app to track all recurring expenses and their due dates."
+    ],
+    troubleshooting: [
+      "If you find hidden subscriptions, check your PayPal or other payment service accounts.",
+      "If canceling is difficult, look for online guides for specific services.",
+      "If you forget due dates, set calendar reminders or automate payments."
+    ]
+  },
+  {
+    id: 207,
+    title: "Understanding Credit Card Statements",
+    category: "Budgeting",
+    difficulty: "Intermediate",
+    time: "30 mins",
+    supplies: ["Credit card statement", "Calculator"],
+    steps: [
+      "Locate key sections: Statement Period, Payment Due Date, Minimum Payment Due, New Balance.",
+      "Understand the 'Interest Rate' (APR) and how it applies to your balance.",
+      "Review the 'Transactions' section for accuracy and unauthorized charges.",
+      "Find the 'Interest Charged' and 'Fees' sections to see additional costs.",
+      "Calculate how much interest you'd pay if you only made the minimum payment.",
+      "Aim to pay your statement balance in full each month to avoid interest."
+    ],
+    troubleshooting: [
+      "If you see unauthorized charges, contact your credit card company immediately.",
+      "If you can't pay in full, pay as much as you can above the minimum.",
+      "If terms are confusing, call your credit card company's customer service for clarification."
+    ]
+  },
+  {
+    id: 208,
+    title: "Creating a 'No-Spend' Challenge",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "15 mins (planning)",
+    supplies: ["Notebook", "Pen", "Calendar"],
+    steps: [
+      "Choose a duration for your challenge (e.g., a weekend, a week, a month).",
+      "Define what counts as 'no-spend' (e.g., no discretionary spending, only essentials).",
+      "Identify your 'allowed' expenses (e.g., rent, groceries, transportation).",
+      "Plan free activities and meals to avoid temptation.",
+      "Communicate your challenge to friends and family for support.",
+      "Track your savings and reflect on your spending habits after the challenge."
+    ],
+    troubleshooting: [
+      "If you break the challenge, don't give up; restart or adjust the rules.",
+      "If you feel deprived, ensure your 'allowed' expenses cover true necessities.",
+      "If it's too easy, make the rules stricter next time."
+    ]
+  },
+  {
+    id: 209,
+    title: "Saving for College/Education",
+    category: "Budgeting",
+    difficulty: "Intermediate",
+    time: "45 mins",
+    supplies: ["Internet access", "Calculator", "Notebook", "Pen"],
+    steps: [
+      "Research the estimated costs of college or further education (tuition, housing, books).",
+      "Determine a realistic savings goal and timeline.",
+      "Explore different savings vehicles (e.g., 529 plans, Roth IRA, savings accounts).",
+      "Calculate how much you need to save monthly or annually.",
+      "Set up automatic transfers to your chosen savings account.",
+      "Regularly review your progress and adjust contributions as needed."
+    ],
+    safetyNotes: "Consult a financial advisor for personalized advice on education savings plans.",
+    troubleshooting: [
+      "If costs seem overwhelming, research scholarships, grants, and financial aid options.",
+      "If contributions are difficult, start small and increase over time.",
+      "If investment options are confusing, begin with a simple, low-cost index fund."
+    ]
+  },
+  {
+    id: 210,
+    title: "Basic Tax Document Organization",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Folders/binders", "Labels", "Shredder", "Important documents (W-2s, 1099s, receipts)"],
+    steps: [
+      "Gather all financial documents (W-2s, 1099s, bank statements, investment statements, receipts for deductions).",
+      "Create a dedicated folder or binder for current year tax documents.",
+      "As documents arrive, immediately file them in the designated spot.",
+      "Keep records of major purchases, charitable donations, and medical expenses.",
+      "Understand which documents you need to keep and for how long (usually 3-7 years).",
+      "Shred old documents that are no longer needed for security."
+    ],
+    troubleshooting: [
+      "If documents are scattered, create a central 'inbox' for all incoming mail.",
+      "If you're unsure what to keep, consult a tax professional or IRS guidelines.",
+      "If you miss a document, contact the issuer (e.g., employer, bank) for a copy."
+    ]
+  },
+
+  // Basic First Aid (5 new)
+  {
+    id: 211,
+    title: "Treating Minor Burns (First Degree)",
+    category: "First Aid",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Cool running water", "Clean cloth", "Aloe vera gel (optional)", "Loose bandage (optional)"],
+    safetyNotes: "Do not use ice, butter, or oil on burns. Seek medical attention for second-degree (blisters) or third-degree burns.",
+    steps: [
+      "Immediately hold the burned area under cool (not cold) running water for 10-20 minutes.",
+      "Gently remove any jewelry or tight clothing from the affected area before swelling begins.",
+      "After cooling, gently pat the area dry with a clean cloth.",
+      "Apply a thin layer of aloe vera gel or a mild moisturizing lotion (optional).",
+      "Cover the burn loosely with a sterile, non-stick bandage if needed to protect it.",
+      "Monitor the burn for signs of infection or worsening condition."
+    ],
+    troubleshooting: [
+      "If pain is severe or persists, seek medical advice.",
+      "If blisters form, do not pop them; cover loosely and seek medical attention.",
+      "If burn covers a large area or is on the face/joints, seek immediate medical help."
+    ]
+  },
+  {
+    id: 212,
+    title: "Recognizing a Stroke (F.A.S.T.)",
+    category: "First Aid",
+    difficulty: "Beginner",
+    time: "5 mins",
+    supplies: ["Phone (to call 911)"],
+    safetyNotes: "Time is critical in stroke treatment. Call 911 immediately if you suspect a stroke.",
+    steps: [
+      "Learn the F.A.S.T. acronym:",
+      "**F**ace drooping: Ask the person to smile. Does one side of the face droop?",
+      "**A**rm weakness: Ask the person to raise both arms. Does one arm drift downward?",
+      "**S**peech difficulty: Ask the person to repeat a simple phrase. Is their speech slurred or strange?",
+      "**T**ime to call 911: If you observe any of these signs, even if they go away, call emergency services immediately.",
+      "Note the time symptoms first appeared.",
+      "Keep the person calm and comfortable while waiting for help."
+    ],
+    troubleshooting: [
+      "If unsure, always call 911; it's better to be safe.",
+      "If the person becomes unconscious, check breathing and prepare for CPR if necessary.",
+      "Do not give the person food or drink."
+    ]
+  },
+  {
+    id: 213,
+    title: "Treating a Nosebleed",
+    category: "First Aid",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Tissue or clean cloth", "Clock/timer"],
+    steps: [
+      "Sit upright and lean slightly forward (do not lean back, as this can cause blood to run down the throat).",
+      "Pinch the soft part of your nose (just above the nostrils) firmly with your thumb and index finger.",
+      "Breathe through your mouth.",
+      "Maintain pressure for 10-15 minutes without releasing to check.",
+      "After 10-15 minutes, slowly release pressure and check if bleeding has stopped.",
+      "If bleeding continues, repeat pinching for another 10-15 minutes. If it still doesn't stop, seek medical attention."
+    ],
+    troubleshooting: [
+      "If blood runs down the throat, ensure you are leaning forward enough.",
+      "If nosebleed is frequent, consult a doctor.",
+      "Avoid picking or blowing your nose for several hours after a nosebleed to prevent recurrence."
+    ]
+  },
+  {
+    id: 214,
+    title: "Recognizing and Responding to Heat Exhaustion",
+    category: "First Aid",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Cool water", "Fan", "Loose clothing"],
+    safetyNotes: "If symptoms worsen or don't improve, seek immediate medical attention as it can progress to heatstroke.",
+    steps: [
+      "Recognize symptoms: heavy sweating, cold/clammy skin, fast/weak pulse, nausea, muscle cramps, dizziness, headache, fainting.",
+      "Move the person to a cooler place (shade, air-conditioned room).",
+      "Loosen their clothing and apply cool, wet cloths to their skin.",
+      "Have them sip cool water slowly (if conscious and not nauseous).",
+      "Fan the person to help cool them down.",
+      "Monitor their condition; if symptoms don't improve within an hour or worsen, call 911."
+    ],
+    troubleshooting: [
+      "If person is unconscious or vomiting, do not give fluids; call 911.",
+      "If skin is hot and dry (no sweating), this could be heatstroke, a medical emergency; call 911 immediately.",
+      "Prevent heat exhaustion by staying hydrated and avoiding strenuous activity in hot weather."
+    ]
+  },
+  {
+    id: 215,
+    title: "Basic Splinting for Fractures/Sprains",
+    category: "First Aid",
+    difficulty: "Intermediate",
+    time: "20 mins",
+    supplies: ["Rigid support (e.g., rolled newspaper, stick)", "Padding (e.g., cloth, gauze)", "Bandage/tape"],
+    safetyNotes: "Only splint if necessary for transport and if it doesn't cause more pain. Do not try to realign a limb. Seek medical attention.",
+    steps: [
+      "Call 911 or prepare for transport to medical facility.",
+      "Immobilize the injured area: support the limb above and below the injury.",
+      "Pad the splint: place soft material (gauze, cloth) around the injury and between the limb and the rigid support.",
+      "Apply the rigid support: place a splint (e.g., rolled newspaper, stick) alongside the injured limb.",
+      "Secure the splint: use bandages or tape to tie the splint firmly but not too tightly, checking circulation.",
+      "Elevate the injured limb if possible and apply ice (if appropriate) while awaiting medical help."
+    ],
+    troubleshooting: [
+      "If splint causes increased pain, loosen or remove it.",
+      "If fingers/toes become numb, cold, or discolored, the splint is too tight; loosen immediately.",
+      "If no rigid support is available, use a sling for arm injuries or tape an injured finger to an uninjured one."
+    ]
+  },
+
+  // DIY and Hands-On Skills (5 new)
+  {
+    id: 216,
+    title: "Basic Wall Patching (Small Holes)",
+    category: "DIY",
+    difficulty: "Beginner",
+    time: "30 mins (plus drying time)",
+    supplies: ["Spackle", "Putty knife", "Fine-grit sandpaper", "Damp cloth", "Paint (optional)"],
+    steps: [
+      "Clean the area around the hole, removing any loose debris.",
+      "Using a putty knife, apply a small amount of spackle directly into the hole, pressing firmly.",
+      "Scrape off excess spackle, leaving a smooth, even surface flush with the wall.",
+      "Allow the spackle to dry completely (check product instructions, usually 1-2 hours).",
+      "Once dry, lightly sand the patched area until it's smooth and blends with the wall.",
+      "Wipe away dust with a damp cloth, then paint if desired."
+    ],
+    troubleshooting: [
+      "If spackle shrinks or cracks, apply a second thin layer after the first dries.",
+      "If the patch is visible, sand more thoroughly or apply another thin layer and re-sand.",
+      "If the hole is larger than a quarter, use a drywall patch kit (refer to Activity 78)."
+    ]
+  },
+  {
+    id: 217,
+    title: "Replacing a Light Bulb Safely",
+    category: "DIY",
+    difficulty: "Beginner",
+    time: "5 mins",
+    supplies: ["New light bulb (matching type/wattage)", "Ladder/step stool (if needed)", "Gloves (optional)"],
+    safetyNotes: "Always turn off the light switch and allow the bulb to cool before touching. Do not exceed fixture's maximum wattage.",
+    steps: [
+      "Ensure the light switch is in the 'off' position.",
+      "If the bulb was recently on, allow it to cool completely to avoid burns.",
+      "Use a sturdy ladder or step stool if the fixture is out of reach.",
+      "Carefully unscrew the old bulb counter-clockwise.",
+      "Screw in the new bulb clockwise until it's snug, but do not overtighten.",
+      "Turn the light switch back on to test the new bulb."
+    ],
+    troubleshooting: [
+      "If the bulb breaks while unscrewing, use pliers to grip the base (with power off!).",
+      "If the new bulb doesn't work, check if it's screwed in properly or if the bulb itself is faulty.",
+      "If the light fixture flickers, it might be a loose connection or an incompatible bulb type."
+    ]
+  },
+  {
+    id: 218,
+    title: "Unclogging a Drain with Natural Methods",
+    category: "DIY",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Baking soda", "White vinegar", "Boiling water", "Plunger", "Old rag"],
+    safetyNotes: "Do not mix vinegar with commercial drain cleaners. Be careful with boiling water.",
+    steps: [
+      "Remove any visible hair or debris from the drain opening.",
+      "Pour a kettle of boiling water down the drain.",
+      "Follow with 1/2 cup of baking soda, letting it sit for a few minutes.",
+      "Pour 1 cup of white vinegar down the drain, immediately covering the drain with an old rag to contain the fizzing reaction.",
+      "Let it sit for 15-30 minutes.",
+      "Flush with another kettle of boiling water. If still clogged, use a plunger."
+    ],
+    troubleshooting: [
+      "If drain is still slow, repeat the process or use a drain snake.",
+      "If the clog is deep, a chemical drain cleaner (use with caution) or professional plumber may be needed.",
+      "Prevent clogs by using drain covers and regularly flushing with hot water."
+    ]
+  },
+  {
+    id: 219,
+    title: "Basic Furniture Touch-Ups (Scratches)",
+    category: "DIY",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Furniture marker/scratch repair kit", "Walnut (optional)", "Soft cloth"],
+    steps: [
+      "Clean the scratched area of the furniture with a soft, damp cloth and dry thoroughly.",
+      "For light scratches on wood, rub a walnut (the nut itself) over the scratch; the natural oils can help disguise it.",
+      "For deeper scratches, use a furniture repair marker or crayon that matches the wood color.",
+      "Apply the marker/crayon gently along the scratch, then immediately wipe away any excess with a soft cloth.",
+      "Allow the touch-up to dry completely.",
+      "Repeat if necessary for deeper scratches, building up the color gradually."
+    ],
+    troubleshooting: [
+      "If the color doesn't match, try a lighter shade first or blend multiple colors.",
+      "If the repair is too noticeable, try a different product or consult a furniture repair specialist.",
+      "Prevent future scratches by using coasters and felt pads under furniture."
+    ]
+  },
+  {
+    id: 220,
+    title: "Changing Batteries in Household Devices",
+    category: "DIY",
+    difficulty: "Beginner",
+    time: "5 mins",
+    supplies: ["New batteries (correct size)", "Screwdriver (if needed)", "Old batteries for disposal"],
+    safetyNotes: "Do not mix old and new batteries, or different types of batteries. Dispose of old batteries responsibly.",
+    steps: [
+      "Identify the device requiring new batteries (e.g., remote control, smoke detector, toy).",
+      "Locate the battery compartment, usually on the back or bottom.",
+      "Open the compartment (may require a small screwdriver).",
+      "Note the orientation of the old batteries (+ and - terminals) before removing them.",
+      "Insert the new batteries, ensuring correct polarity (+ to +, - to -).",
+      "Close the compartment and test the device. Dispose of old batteries properly."
+    ],
+    troubleshooting: [
+      "If device doesn't work, double-check battery orientation and ensure batteries are fresh.",
+      "If compartment is stuck, try gently prying it open with a flathead screwdriver.",
+      "If batteries corrode, clean the contacts with a cotton swab dipped in vinegar before inserting new ones."
+    ]
+  },
+
+  // Creative and Maker Skills (5 new)
+  {
+    id: 221,
+    title: "Basic Drawing: Still Life with Simple Objects",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Pencil (HB, 2B)", "Eraser", "Drawing paper", "Simple objects (e.g., apple, cup, book)", "Light source"],
+    steps: [
+      "Arrange 2-3 simple objects on a table, ensuring a clear light source creates shadows.",
+      "Lightly sketch the basic shapes and proportions of the objects on your paper.",
+      "Focus on negative space (the space around and between objects) to help with accuracy.",
+      "Add details and refine outlines, paying attention to how objects overlap.",
+      "Begin shading to create depth and form, observing where light hits and shadows fall.",
+      "Use your eraser to create highlights and clean up stray lines."
+    ],
+    troubleshooting: [
+      "If proportions are off, step back and compare your drawing to the actual objects frequently.",
+      "If shading looks flat, use a wider range of pencil pressures to create darker darks and lighter lights.",
+      "If you get frustrated, try drawing just one object first or simplify the arrangement."
+    ]
+  },
+  {
+    id: 222,
+    title: "DIY Personalized Mugs",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins (plus baking time)",
+    supplies: ["Plain ceramic mug", "Oil-based paint markers (e.g., Sharpie Oil-Based)", "Rubbing alcohol", "Cotton balls", "Oven"],
+    safetyNotes: "Ensure paint markers are non-toxic and oven-safe. Do not use on surfaces that will touch food/drink.",
+    steps: [
+      "Clean the mug thoroughly with rubbing alcohol and a cotton ball to remove any oils or residue.",
+      "Sketch your design lightly on paper first, then transfer it to the mug (or draw freehand).",
+      "Use oil-based paint markers to draw or write your design on the mug.",
+      "Allow the paint to dry for at least 24 hours.",
+      "Bake the mug in a cold oven, then turn the oven to 350°F (175°C) and bake for 30 minutes.",
+      "Turn off the oven and let the mug cool completely inside before removing. This helps set the paint."
+    ],
+    troubleshooting: [
+      "If paint smudges, wipe off immediately with rubbing alcohol and restart that section.",
+      "If design fades after washing, ensure proper drying and baking times.",
+      "If you make a mistake, use rubbing alcohol on a cotton swab to correct small errors before baking."
+    ]
+  },
+  {
+    id: 223,
+    title: "Introduction to Podcasting (Basic Setup)",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Computer", "Microphone (built-in or external)", "Headphones", "Audio recording software (e.g., Audacity, GarageBand)", "Topic idea"],
+    steps: [
+      "Choose a topic for your podcast and outline a short episode (e.g., 5-10 minutes).",
+      "Set up your recording environment: find a quiet space, minimize echoes.",
+      "Connect your microphone and headphones to your computer.",
+      "Open your audio recording software and familiarize yourself with basic functions (record, pause, stop).",
+      "Record your episode, speaking clearly and at a consistent volume.",
+      "Edit your recording: remove pauses, mistakes, and add a simple intro/outro (optional)."
+    ],
+    troubleshooting: [
+      "If audio quality is poor, try recording in a smaller room with soft furnishings or use an external microphone.",
+      "If background noise is an issue, use noise reduction features in your software or record at a quieter time.",
+      "If you struggle with editing, start with just trimming the beginning and end of your recording."
+    ]
+  },
+  {
+    id: 224,
+    title: "DIY Upcycled T-Shirt Tote Bag",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Old t-shirt", "Scissors", "Ruler", "Fabric glue (optional)"],
+    steps: [
+      "Lay your t-shirt flat and smooth it out.",
+      "Cut off the bottom hem of the t-shirt.",
+      "Cut fringes along the bottom edge of the t-shirt, about 1 inch wide and 3-4 inches long.",
+      "Tie the front and back fringes together with double knots to create the bottom of the bag.",
+      "Cut off the sleeves and the neckline to create handles (refer to Activity 133 for handle ideas).",
+      "Reinforce knots with fabric glue if desired. Use for groceries or carrying light items."
+    ],
+    troubleshooting: [
+      "If knots unravel, ensure they are tight double knots.",
+      "If handles stretch too much, use a thicker t-shirt or reinforce with a sewn seam.",
+      "If the bag is too small, use a larger t-shirt or cut longer fringes."
+    ]
+  },
+  {
+    id: 225,
+    title: "Basic Digital Photo Editing (Crop, Enhance)",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Computer/smartphone", "Digital photo", "Photo editing software/app (e.g., Google Photos, Photos app, GIMP)"],
+    steps: [
+      "Open a digital photo in your chosen editing software/app.",
+      "Learn to use the 'Crop' tool to improve composition and remove distractions.",
+      "Experiment with 'Brightness' and 'Contrast' adjustments to make the image clearer.",
+      "Adjust 'Saturation' to make colors more vibrant or desaturated.",
+      "Use 'Sharpen' to bring out details (use sparingly to avoid graininess).",
+      "Save your edited photo as a new file to preserve the original."
+    ],
+    troubleshooting: [
+      "If edits look unnatural, use subtle adjustments rather than extreme changes.",
+      "If software is overwhelming, focus on just 2-3 basic tools first.",
+      "If photo quality degrades after editing, ensure you are saving in a high-quality format (e.g., JPEG at high quality)."
     ]
   }
 ];
