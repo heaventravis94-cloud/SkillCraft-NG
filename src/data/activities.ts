@@ -2405,7 +2405,8 @@ export const activities: Activity[] = [
       "Take a photo, then move your character/object a tiny bit",
       "Take another photo, move again, and repeat many times",
       "Import photos into a stop motion app and adjust frame rate",
-      "Add sound effects or music (optional) and export your animation"
+      "Add sound effects or music (optional) and export your animation",
+      "Explore online tutorials for specific techniques or tools"
     ],
     troubleshooting: [
       "If animation is jumpy, make smaller movements between frames",
@@ -2878,7 +2879,7 @@ export const activities: Activity[] = [
     troubleshooting: [
       "If the calculator results are confusing, try a different one or focus on major categories",
       "If changes feel overwhelming, start with one easy habit (e.g., shorter showers)",
-      "If you struggle to motivate others, lead by example and share positive impacts"
+      "If family members don't participate, educate them on the benefits (cost savings, environment)"
     ]
   },
   {
@@ -3549,7 +3550,7 @@ export const activities: Activity[] = [
     category: "Future Ready",
     difficulty: "Beginner",
     time: "60 mins",
-    supplies: ["Computer/tablet", "Internet access"],
+    supplies: ["Computer", "Tablet", "Internet access"],
     steps: [
       "Choose a beginner-friendly block-based coding platform (e.g., Scratch, Blockly)",
       "Familiarize yourself with the interface and basic coding blocks",
@@ -4772,6 +4773,551 @@ export const activities: Activity[] = [
       "If edits look unnatural, use subtle adjustments rather than extreme changes.",
       "If software is overwhelming, focus on just 2-3 basic tools first.",
       "If photo quality degrades after editing, ensure you are saving in a high-quality format (e.g., JPEG at high quality)."
+    ]
+  },
+  // --- NEW ACTIVITIES START HERE (ID 226 to 250) ---
+
+  // Life & Independence Skills (5 new)
+  {
+    id: 226,
+    title: "Basic Home Budgeting Spreadsheet",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Computer", "Spreadsheet software (Excel, Google Sheets)", "Bank statements"],
+    steps: [
+      "Open a new spreadsheet and create columns for 'Date', 'Description', 'Category', 'Income', 'Expenses', 'Balance'.",
+      "Input your monthly income at the top.",
+      "Go through your bank statements and enter all transactions, categorizing each.",
+      "Use simple formulas (e.g., SUM, subtraction) to calculate total income, total expenses, and remaining balance.",
+      "Review your spending patterns and identify areas where you can save.",
+      "Update the spreadsheet regularly to keep track of your finances."
+    ],
+    troubleshooting: [
+      "If formulas don't work, double-check syntax and cell references.",
+      "If categorizing is difficult, create a few broad categories first and refine later.",
+      "If you miss transactions, set a reminder to check your bank account weekly."
+    ]
+  },
+  {
+    id: 227,
+    title: "Meal Planning for One",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Notebook/planner", "Pen", "Recipe ideas"],
+    steps: [
+      "Consider your dietary preferences and cooking skills.",
+      "Choose 3-4 main meals for the week that can be scaled down or provide leftovers.",
+      "Plan for breakfast, lunch, and dinner, including snacks.",
+      "Create a shopping list based on your meal plan to avoid impulse buys.",
+      "Prep ingredients in advance (e.g., chop veggies, cook grains) to save time during the week.",
+      "Adjust portion sizes to minimize food waste."
+    ],
+    troubleshooting: [
+      "If you get bored with meals, try new recipes or rotate your favorites.",
+      "If food spoils, plan smaller batches or freeze portions.",
+      "If cooking feels like a chore, choose simple, quick recipes."
+    ]
+  },
+  {
+    id: 228,
+    title: "Basic Car Tire Pressure Check",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Tire pressure gauge", "Car owner's manual (optional)"],
+    safetyNotes: "Check tire pressure when tires are cold (car hasn't been driven recently).",
+    steps: [
+      "Locate the recommended tire pressure (PSI) for your car (usually on a sticker inside the driver's side door jamb or in the owner's manual).",
+      "Remove the valve cap from one tire.",
+      "Press the tire pressure gauge firmly onto the valve stem until the hissing sound stops and the gauge shows a reading.",
+      "Compare the reading to the recommended PSI. If too low, add air; if too high, release air.",
+      "Repeat for all four tires and the spare tire (if applicable).",
+      "Replace all valve caps securely."
+    ],
+    troubleshooting: [
+      "If gauge gives inconsistent readings, try a different gauge.",
+      "If tire loses air quickly, check for punctures or a faulty valve stem.",
+      "If you don't have an air pump, most gas stations have one."
+    ]
+  },
+  {
+    id: 229,
+    title: "Understanding Basic Insurance Types",
+    category: "Life Skills",
+    difficulty: "Intermediate",
+    time: "30 mins",
+    supplies: ["Internet access", "Notebook", "Pen"],
+    steps: [
+      "Research common types of insurance: health, auto, home/renters, life.",
+      "Understand the basic purpose of each type of insurance.",
+      "Learn key terms: premium, deductible, coverage, policy.",
+      "Consider why each type of insurance might be important for different life stages.",
+      "Research how to get quotes and compare policies.",
+      "Discuss with a trusted adult or insurance professional for personalized advice."
+    ],
+    troubleshooting: [
+      "If terms are confusing, use online glossaries or ask for simpler explanations.",
+      "If comparing policies is overwhelming, focus on coverage limits and deductibles first.",
+      "If you feel pressured by sales, take time to research independently."
+    ]
+  },
+  {
+    id: 230,
+    title: "Basic First Aid for Minor Cuts",
+    category: "Life Skills",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Soap and water", "Antiseptic wipe (optional)", "Band-aids", "Clean cloth"],
+    safetyNotes: "Wash hands before and after. Seek medical help for deep cuts or persistent bleeding.",
+    steps: [
+      "Wash your hands thoroughly with soap and water.",
+      "Gently clean the cut with mild soap and water to remove dirt and debris.",
+      "Apply an antiseptic wipe or solution if desired, but it's not always necessary for minor cuts.",
+      "Apply gentle pressure with a clean cloth or gauze to stop any bleeding.",
+      "Once bleeding stops, cover the cut with a clean band-aid.",
+      "Change the band-aid daily or if it gets wet or dirty."
+    ],
+    troubleshooting: [
+      "If bleeding doesn't stop after several minutes of pressure, seek medical attention.",
+      "If the cut shows signs of infection (redness, swelling, pus), consult a doctor.",
+      "If allergic to band-aids, try sterile gauze and medical tape."
+    ]
+  },
+
+  // Basic Cooking for Teens (5 new)
+  {
+    id: 231,
+    title: "Making Perfect Toast",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "5 mins",
+    supplies: ["Bread slices", "Toaster or toaster oven", "Butter/spread (optional)"],
+    steps: [
+      "Choose your preferred type of bread.",
+      "Place bread slices into the toaster slots or on the toaster oven rack.",
+      "Select your desired toast setting (light, medium, dark).",
+      "Press the lever down (for toaster) or turn on (for toaster oven).",
+      "Wait for the toast to pop up or for the toaster oven to finish.",
+      "Carefully remove the hot toast and apply butter or your favorite spread."
+    ],
+    troubleshooting: [
+      "If toast burns, use a lighter setting next time.",
+      "If toast is too light, use a darker setting or toast for longer.",
+      "If toaster smells, clean out crumb tray regularly."
+    ]
+  },
+  {
+    id: 232,
+    title: "Boiling Water Safely",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Pot", "Water", "Stovetop"],
+    safetyNotes: "Never leave boiling water unattended. Use oven mitts for hot pots.",
+    steps: [
+      "Choose a pot appropriate for the amount of water you need.",
+      "Fill the pot with water, leaving some space at the top to prevent boiling over.",
+      "Place the pot on a stovetop burner.",
+      "Turn the burner to high heat.",
+      "Wait for the water to reach a rolling boil (large, rapid bubbles).",
+      "Carefully turn off the heat and use oven mitts to handle the hot pot."
+    ],
+    troubleshooting: [
+      "If water boils over, reduce heat slightly or use a larger pot.",
+      "If it takes too long to boil, ensure the lid is on the pot.",
+      "If pot handle is hot, use a towel or oven mitt."
+    ]
+  },
+  {
+    id: 233,
+    title: "Simple Fruit Salad",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Assorted fresh fruits (berries, melon, grapes)", "Cutting board", "Knife", "Large bowl"],
+    steps: [
+      "Wash all fruits thoroughly under cold water.",
+      "Peel and chop larger fruits (like melon) into bite-sized pieces.",
+      "Combine all fruits in a large bowl.",
+      "Gently toss to mix the fruits.",
+      "Serve immediately or chill in the refrigerator for a refreshing snack.",
+      "For extra flavor, squeeze a little lemon or lime juice over the salad."
+    ],
+    troubleshooting: [
+      "If fruits brown quickly, add citrus juice (lemon, lime, orange) to prevent oxidation.",
+      "If salad is bland, add a pinch of mint or a drizzle of honey.",
+      "If fruits are too soft, ensure they are fresh and not overripe."
+    ]
+  },
+  {
+    id: 234,
+    title: "Making Instant Noodles",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "5 mins",
+    supplies: ["Instant noodle packet", "Pot or microwave-safe bowl", "Water", "Stovetop or microwave"],
+    steps: [
+      "Boil water in a pot on the stovetop or in a microwave-safe bowl in the microwave.",
+      "Open the instant noodle packet and place the noodles into the boiling water.",
+      "Add the seasoning packet(s) to the water.",
+      "Cook for 2-3 minutes, stirring occasionally, until noodles are tender.",
+      "Carefully pour into a bowl and enjoy.",
+      "Optional: add a cracked egg, some chopped vegetables, or a dash of hot sauce for extra flavor."
+    ],
+    troubleshooting: [
+      "If noodles are too hard, cook for an extra minute.",
+      "If noodles are too soft, reduce cooking time next time.",
+      "If broth is too salty, add a little more hot water."
+    ]
+  },
+  {
+    id: 235,
+    title: "Heating Leftovers Safely",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Leftover food", "Microwave-safe plate/container or stovetop pan", "Oven mitts"],
+    safetyNotes: "Reheat food to an internal temperature of 165°F (74°C). Do not reheat food more than once.",
+    steps: [
+      "Choose the appropriate method for reheating (microwave for quick, stovetop for even, oven for crispy).",
+      "If microwaving, use a microwave-safe plate or container and cover loosely to retain moisture.",
+      "If using a stovetop, heat in a pan over medium heat, stirring occasionally.",
+      "If using an oven, preheat to 325-350°F (160-175°C) and heat until warmed through.",
+      "Ensure food is steaming hot throughout before serving.",
+      "Discard any leftovers that have been sitting out for more than 2 hours."
+    ],
+    troubleshooting: [
+      "If food is dry, add a splash of water or broth before reheating.",
+      "If food heats unevenly in microwave, stir halfway through.",
+      "If food is still cold in the middle, continue heating in short bursts."
+    ]
+  },
+
+  // Meal Prep Basics (5 new)
+  {
+    id: 236,
+    title: "Prepping Vegetable Sticks & Dips",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "25 mins",
+    supplies: ["Assorted raw vegetables (carrots, celery, bell peppers, cucumbers)", "Cutting board", "Knife", "Airtight containers", "Dips (hummus, ranch, yogurt dip)"],
+    steps: [
+      "Wash all vegetables thoroughly.",
+      "Chop vegetables into easy-to-eat sticks or slices.",
+      "Store different vegetables in separate airtight containers or combine them.",
+      "Prepare or portion out your favorite dips into small, individual containers.",
+      "Refrigerate immediately. Enjoy as healthy snacks or side dishes.",
+      "Vegetable sticks typically stay fresh for 3-5 days."
+    ],
+    troubleshooting: [
+      "If vegetables dry out, add a damp paper towel to the container.",
+      "If dips spoil quickly, ensure they are stored in airtight containers and used within their recommended time.",
+      "If you get bored, rotate your vegetable and dip choices weekly."
+    ]
+  },
+  {
+    id: 237,
+    title: "Batch Cooking Roasted Chicken",
+    category: "Meal Prep",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Chicken breasts or thighs", "Olive oil", "Seasonings (salt, pepper, garlic powder)", "Baking sheet", "Meat thermometer", "Airtight containers"],
+    safetyNotes: "Cook chicken to an internal temperature of 165°F (74°C).",
+    steps: [
+      "Preheat oven to 400°F (200°C).",
+      "Pat chicken dry with paper towels. Toss with olive oil and desired seasonings.",
+      "Spread chicken in a single layer on a baking sheet.",
+      "Roast for 20-30 minutes, or until a meat thermometer inserted into the thickest part reads 165°F (74°C).",
+      "Let chicken rest for 5-10 minutes before slicing or shredding.",
+      "Cool completely, then store in airtight containers in the refrigerator for up to 3-4 days, or freeze for longer."
+    ],
+    troubleshooting: [
+      "If chicken is dry, reduce cooking time or use chicken thighs which are more forgiving.",
+      "If chicken is not cooked through, continue roasting until it reaches the safe internal temperature.",
+      "If flavors are bland, marinate chicken before roasting or add a sauce after cooking."
+    ]
+  },
+  {
+    id: 238,
+    title: "Making Energy Bites/Balls",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "20 mins (plus chilling time)",
+    supplies: ["Rolled oats", "Nut butter", "Honey/maple syrup", "Chia seeds/flax seeds", "Chocolate chips (optional)", "Mixing bowl", "Spoon", "Airtight container"],
+    steps: [
+      "In a large mixing bowl, combine rolled oats, nut butter, and honey/maple syrup.",
+      "Add chia seeds or flax seeds, and any optional mix-ins like chocolate chips or shredded coconut.",
+      "Mix well until all ingredients are thoroughly combined and form a sticky dough.",
+      "Roll the mixture into bite-sized balls.",
+      "Place the energy bites in an airtight container and refrigerate for at least 30 minutes to firm up.",
+      "Store in the refrigerator for up to a week or freeze for longer."
+    ],
+    troubleshooting: [
+      "If mixture is too dry, add a little more nut butter or sweetener.",
+      "If mixture is too sticky, add a little more oats or a sprinkle of protein powder.",
+      "If flavors are bland, add cinnamon, vanilla extract, or cocoa powder."
+    ]
+  },
+  {
+    id: 239,
+    title: "Prepping Fruit for the Week",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Assorted fresh fruits", "Cutting board", "Knife", "Airtight containers", "Lemon juice (optional)"],
+    steps: [
+      "Wash all fruits thoroughly.",
+      "Chop fruits like melon, pineapple, and grapes into bite-sized pieces.",
+      "For fruits that brown easily (apples, bananas), slice them just before eating or toss with a little lemon juice.",
+      "Store prepped fruits in airtight containers in the refrigerator.",
+      "Keep berries unwashed until just before eating to prevent spoilage.",
+      "Enjoy as quick snacks, additions to yogurt, or smoothie ingredients."
+    ],
+    troubleshooting: [
+      "If fruits spoil quickly, ensure containers are airtight and fridge temperature is correct.",
+      "If cut apples brown, soak them briefly in a bowl of water with a squeeze of lemon juice.",
+      "If you have too much fruit, freeze some for smoothies or make fruit compote."
+    ]
+  },
+  {
+    id: 240,
+    title: "Making Mason Jar Salads",
+    category: "Meal Prep",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Mason jars with lids", "Salad dressing", "Hard vegetables", "Grains/protein", "Soft vegetables", "Leafy greens"],
+    steps: [
+      "Pour salad dressing into the bottom of the mason jar.",
+      "Layer hard, non-absorbent vegetables next (e.g., carrots, cucumbers, bell peppers).",
+      "Add grains (quinoa, pasta) or protein (chicken, beans).",
+      "Layer softer vegetables (e.g., tomatoes, corn, avocado).",
+      "Top with leafy greens, ensuring they stay dry and are packed loosely.",
+      "Seal tightly and store upright in the refrigerator. Shake well before eating."
+    ],
+    troubleshooting: [
+      "If greens wilt, ensure they are completely dry before adding to the jar.",
+      "If dressing leaks, check the jar's seal or use less dressing.",
+      "If salad is soggy, ensure layers are in the correct order to protect greens from dressing."
+    ]
+  },
+
+  // Laundry and Clothing Care (5 new)
+  {
+    id: 241,
+    title: "Removing Odors from Clothes",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "30 mins (plus soaking time)",
+    supplies: ["White vinegar", "Baking soda", "Laundry detergent", "Washing machine", "Basin/tub"],
+    steps: [
+      "For general odors, add 1/2 cup of white vinegar to the fabric softener dispenser or directly to the wash cycle.",
+      "For stubborn odors, pre-soak clothes in a basin with 1 cup of white vinegar and cool water for 30 minutes to an hour.",
+      "Alternatively, sprinkle baking soda directly onto dry clothes and let it sit for several hours or overnight before washing.",
+      "Wash clothes as usual with your regular laundry detergent.",
+      "Ensure clothes are completely dry before storing to prevent new odors.",
+      "For gym clothes, wash immediately after use or hang to air out before washing."
+    ],
+    troubleshooting: [
+      "If odor persists, repeat the treatment or try a specialized laundry booster.",
+      "If clothes are delicate, use less vinegar or a gentler odor remover.",
+      "If washing machine smells, run an empty hot cycle with vinegar or a machine cleaner."
+    ]
+  },
+  {
+    id: 242,
+    title: "Basic Stain Chart & Treatment",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Stain remover (various types)", "Clean cloths", "Water", "Internet access (for stain chart)"],
+    safetyNotes: "Always test stain removers on an inconspicuous area first. Do not put stained items in the dryer.",
+    steps: [
+      "Identify the type of stain (e.g., oil, ink, blood, grass, coffee).",
+      "Research a basic stain chart online to find recommended treatments for different stains.",
+      "Act quickly: treat stains as soon as possible for best results.",
+      "Blot (don't rub) excess stain from the fabric.",
+      "Apply the appropriate stain remover or homemade solution (e.g., cold water for blood, dish soap for oil).",
+      "Launder the item as usual. Check if the stain is gone before drying; repeat treatment if necessary."
+    ],
+    troubleshooting: [
+      "If stain sets in, it may be harder to remove; try a stronger treatment or professional cleaning.",
+      "If fabric is damaged, use gentler methods or consult a fabric care expert.",
+      "If you're unsure, use a general stain remover or a mild solution like dish soap and water."
+    ]
+  },
+  {
+    id: 243,
+    title: "Folding Fitted Sheets",
+    category: "Laundry",
+    difficulty: "Intermediate",
+    time: "5 mins",
+    supplies: ["Fitted sheet", "Flat surface"],
+    steps: [
+      "Hold the sheet lengthwise, turning one corner inside out over your hand.",
+      "Bring the adjacent corner to meet the first, tucking its elastic edge into the first corner.",
+      "Repeat with the third corner, bringing it to meet the first two, creating a neat stack of three corners.",
+      "Bring the fourth corner over and tuck it into the stack, creating one perfectly aligned corner.",
+      "Lay the sheet flat on a surface with the aligned corner at the top.",
+      "Fold the sheet into a neat rectangle, smoothing out wrinkles as you go."
+    ],
+    troubleshooting: [
+      "If corners don't align, practice the tucking motion until it feels natural.",
+      "If sheet still looks messy, focus on smoothing each fold as you make it.",
+      "Watch an online video tutorial for a visual guide if needed."
+    ]
+  },
+  {
+    id: 244,
+    title: "Basic Ironing for Shirts",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Iron", "Ironing board", "Spray bottle with water (optional)", "Shirt"],
+    safetyNotes: "Always unplug iron when not in use. Never leave hot iron unattended. Check fabric care label for iron temperature.",
+    steps: [
+      "Check the shirt's care label for the recommended ironing temperature.",
+      "Fill the iron's water reservoir if using steam, or have a spray bottle handy.",
+      "Lay the shirt flat on the ironing board, starting with the collar, then cuffs, sleeves, and finally the body.",
+      "Iron in sections, moving the iron smoothly and evenly. Use steam or a light mist of water for stubborn wrinkles.",
+      "Hang the shirt immediately after ironing to prevent new wrinkles.",
+      "Allow the shirt to cool completely before wearing or putting it away."
+    ],
+    troubleshooting: [
+      "If fabric gets shiny, iron on the inside of the garment or use a pressing cloth.",
+      "If wrinkles persist, increase steam or use a slightly higher temperature (if safe for fabric).",
+      "If iron leaves water spots, use distilled water or clean the iron's soleplate."
+    ]
+  },
+  {
+    id: 245,
+    title: "Storing Seasonal Clothing",
+    category: "Laundry",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Airtight storage bins/bags", "Labels", "Cedar blocks (optional)", "Clean clothes"],
+    steps: [
+      "Wash and thoroughly dry all seasonal clothing before storing (even if it looks clean).",
+      "Repair any minor damage (loose buttons, small tears) before putting items away.",
+      "Fold clothes neatly to maximize space and prevent deep wrinkles.",
+      "Place clothes in airtight storage bins or vacuum-seal bags to protect from pests, dust, and moisture.",
+      "Add cedar blocks or lavender sachets for natural pest deterrence and freshness (avoid mothballs).",
+      "Label bins clearly with contents (e.g., 'Winter Sweaters', 'Summer Dresses') and store in a cool, dry place."
+    ],
+    troubleshooting: [
+      "If clothes develop mildew smell, rewash and ensure they are completely dry before storing.",
+      "If storage space is limited, consider donating items you no longer wear.",
+      "If pests are an issue, ensure storage containers are truly airtight and consider professional pest control."
+    ]
+  },
+
+  // Cleaning and Organization (5 new)
+  {
+    id: 246,
+    title: "Cleaning Bathroom Mirrors & Fixtures",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "15 mins",
+    supplies: ["Glass cleaner", "Microfiber cloth (2)", "All-purpose cleaner", "Old toothbrush"],
+    steps: [
+      "Spray glass cleaner directly onto the mirror (or a clean microfiber cloth).",
+      "Wipe the mirror in an S-motion from top to bottom with one clean, dry microfiber cloth for a streak-free shine.",
+      "For chrome fixtures (faucet, towel rack), spray with all-purpose cleaner or a vinegar solution.",
+      "Wipe down fixtures with a damp cloth, then buff dry with a second clean microfiber cloth to prevent water spots.",
+      "Use an old toothbrush to clean around the base of the faucet and other tight spots.",
+      "For stubborn water spots on chrome, use a lemon half or a paste of baking soda and water."
+    ],
+    troubleshooting: [
+      "If streaks appear on the mirror, use less cleaner or a cleaner cloth.",
+      "If water spots remain on fixtures, ensure you are buffing completely dry.",
+      "If grout around fixtures is dirty, use a grout cleaner or baking soda paste."
+    ]
+  },
+  {
+    id: 247,
+    title: "Organizing Your Desk/Workspace",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Trash can", "Recycling bin", "Storage containers/organizers", "Wipes/cleaner"],
+    steps: [
+      "Clear everything off your desk/workspace.",
+      "Sort items into categories: Keep, File, Trash, Donate.",
+      "Throw away trash and recycle paper.",
+      "File important documents and put away items that belong elsewhere.",
+      "Wipe down all surfaces with a cleaner.",
+      "Return only essential items to your desk, using organizers for pens, papers, and small items. Keep frequently used items within reach."
+    ],
+    troubleshooting: [
+      "If clutter quickly returns, establish a 5-minute tidy-up routine at the end of each day.",
+      "If you lack storage, consider multi-functional items or wall-mounted organizers.",
+      "If you struggle to decide what to keep, ask yourself: 'Have I used this in the last month? Does it serve a purpose?'"
+    ]
+  },
+  {
+    id: 248,
+    title: "Cleaning Your Computer Screen & Keyboard",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Microfiber cloth", "Screen cleaner (or distilled water)", "Compressed air", "Cotton swabs"],
+    safetyNotes: "Always turn off and unplug your computer/monitor before cleaning. Never spray liquid directly onto the screen or keyboard.",
+    steps: [
+      "Turn off and unplug your computer and monitor.",
+      "For the screen: gently wipe with a clean, dry microfiber cloth to remove dust. For smudges, lightly mist screen cleaner (or distilled water) onto the microfiber cloth, then wipe.",
+      "For the keyboard: use compressed air to blow out crumbs and dust between keys.",
+      "Wipe down the keycaps and keyboard surface with a slightly damp microfiber cloth or an antiseptic wipe.",
+      "Use a cotton swab dipped in rubbing alcohol to clean tight spots or sticky keys.",
+      "Allow everything to dry completely before plugging back in and turning on."
+    ],
+    troubleshooting: [
+      "If screen streaks, use less liquid or a cleaner microfiber cloth.",
+      "If keys are still sticky, repeat cleaning with a cotton swab and alcohol.",
+      "If compressed air runs out, use a soft brush to dislodge debris."
+    ]
+  },
+  {
+    id: 249,
+    title: "Deep Cleaning a Shower/Bathtub",
+    category: "Cleaning",
+    difficulty: "Intermediate",
+    time: "45 mins",
+    supplies: ["Bathroom cleaner", "Scrub brush/sponge", "Grout brush (optional)", "Microfiber cloths", "Ventilation"],
+    safetyNotes: "Ensure good ventilation. Wear gloves. Avoid mixing different cleaning chemicals.",
+    steps: [
+      "Remove all bottles, soaps, and shower caddies from the shower/tub.",
+      "Rinse the entire area with warm water.",
+      "Spray bathroom cleaner generously over all surfaces (tiles, grout, tub, shower door).",
+      "Allow the cleaner to sit for the recommended dwell time (check product instructions).",
+      "Scrub all surfaces thoroughly with a brush or sponge, paying extra attention to grout lines and soap scum.",
+      "Rinse thoroughly with warm water until all cleaner is gone, then wipe dry with a microfiber cloth to prevent water spots."
+    ],
+    troubleshooting: [
+      "If soap scum is stubborn, use a paste of baking soda and vinegar, let sit, then scrub.",
+      "If mold/mildew is present, use a bleach-based cleaner (with caution and ventilation) or a mold remover.",
+      "If grout is discolored, use a specialized grout cleaner and brush."
+    ]
+  },
+  {
+    id: 250,
+    title: "Organizing Your Digital Files",
+    category: "Cleaning",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer/device", "External hard drive (optional)", "Cloud storage (optional)"],
+    steps: [
+      "Create a logical folder structure (e.g., Documents, Photos, Projects, Downloads).",
+      "Go through your 'Downloads' folder and move/delete old files.",
+      "Rename files with clear, consistent naming conventions (e.g., 'ProjectName_DocumentType_Date').",
+      "Delete duplicate or unnecessary files to free up space.",
+      "Regularly back up important files to an external hard drive or cloud storage.",
+      "Schedule a recurring time to review and organize your digital files."
+    ],
+    troubleshooting: [
+      "If you're unsure where to put a file, create a temporary 'To Sort' folder.",
+      "If you accidentally delete a file, check your recycle bin/trash.",
+      "If cloud storage is full, review what's stored and delete old versions or unnecessary files."
     ]
   }
 ];
