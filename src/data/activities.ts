@@ -2530,7 +2530,7 @@ export const activities: Activity[] = [
     steps: [
       "Learn how to cast on stitches onto your knitting needle",
       "Practice the knit stitch (the only stitch needed for garter stitch)",
-      "Knit every row until your scarf reaches the desired length",
+      "Knitting every row until your scarf reaches the desired length",
       "Learn how to bind off stitches to finish your work",
       "Weave in any loose ends with a yarn needle",
       "Block your scarf (optional) to even out stitches"
@@ -3326,7 +3326,7 @@ export const activities: Activity[] = [
       "Start and end strong, and be prepared for questions"
     ],
     troubleshooting: [
-      "If you get nervous, practice deep breathing and visualize success",
+      "If you get nervous, practice deep breathing exercises before the interview",
       "If you speak too fast, consciously slow down and pause between points",
       "If you forget your lines, have cue cards with key points, not full sentences"
     ]
