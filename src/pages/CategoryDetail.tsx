@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, FirstAidKit, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket } from "lucide-react";
+import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
 import { Input } from "@/components/ui/input"; // Added Input import
@@ -54,7 +54,7 @@ const CategoryDetail = () => {
     },
     "first-aid": {
       title: "Basic First Aid (Non-Medical)",
-      icon: <FirstAidKit className="h-6 w-6" />,
+      icon: <HeartPulse className="h-6 w-6" />,
       color: "bg-red-100 text-red-600"
     },
     "diy": {

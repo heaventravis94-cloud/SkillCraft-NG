@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { Search, BookOpen, CookingPot, Wrench, Leaf, Wallet, FirstAidKit, Home, Scissors, Zap, Palette, Sprout, Rocket } from "lucide-react";
+import { Search, BookOpen, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Home, Scissors, Zap, Palette, Sprout, Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
 
@@ -70,7 +70,7 @@ const SkillLibrary = () => {
     {
       id: "first-aid",
       title: "Basic First Aid (Non-Medical)",
-      icon: <FirstAidKit className="h-6 w-6" />,
+      icon: <HeartPulse className="h-6 w-6" />,
       count: getCategoryCount("First Aid"),
       color: "bg-red-100 text-red-600"
     },
