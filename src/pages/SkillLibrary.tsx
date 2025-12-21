@@ -5,95 +5,101 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { Search, BookOpen, CookingPot, Wrench, Leaf, Wallet, FirstAidKit, Home, Scissors, Zap } from "lucide-react";
+import { Search, BookOpen, CookingPot, Wrench, Leaf, Wallet, FirstAidKit, Home, Scissors, Zap, Palette, Sprout, Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
+import { activities } from "@/data/activities";
 
 const SkillLibrary = () => {
   const [searchTerm, setSearchTerm] = useState("");
   
+  // Dynamically calculate counts for each category
+  const getCategoryCount = (categoryName: string) => {
+    return activities.filter(activity => activity.category === categoryName).length;
+  };
+
   const categories = [
     {
       id: "life-skills",
       title: "Life & Independence Skills",
       icon: <Home className="h-6 w-6" />,
-      count: 12,
+      count: getCategoryCount("Life Skills"),
       color: "bg-blue-100 text-blue-600"
     },
     {
       id: "cooking",
       title: "Basic Cooking for Teens",
       icon: <CookingPot className="h-6 w-6" />,
-      count: 8,
+      count: getCategoryCount("Cooking"),
       color: "bg-orange-100 text-orange-600"
     },
     {
       id: "meal-prep",
       title: "Meal Prep Basics",
       icon: <BookOpen className="h-6 w-6" />,
-      count: 5,
+      count: getCategoryCount("Meal Prep"),
       color: "bg-amber-100 text-amber-600"
     },
     {
       id: "laundry",
       title: "Laundry and Clothing Care",
       icon: <Scissors className="h-6 w-6" />,
-      count: 5,
+      count: getCategoryCount("Laundry"),
       color: "bg-cyan-100 text-cyan-600"
     },
     {
       id: "cleaning",
       title: "Cleaning and Organization",
       icon: <BookOpen className="h-6 w-6" />,
-      count: 5,
+      count: getCategoryCount("Cleaning"),
       color: "bg-emerald-100 text-emerald-600"
     },
     {
       id: "time-management",
       title: "Time Management",
       icon: <BookOpen className="h-6 w-6" />,
-      count: 5,
+      count: getCategoryCount("Time Management"),
       color: "bg-violet-100 text-violet-600"
     },
     {
       id: "budgeting",
       title: "Budgeting Basics",
       icon: <Wallet className="h-6 w-6" />,
-      count: 5,
+      count: getCategoryCount("Budgeting"),
       color: "bg-green-100 text-green-600"
     },
     {
       id: "first-aid",
       title: "Basic First Aid (Non-Medical)",
       icon: <FirstAidKit className="h-6 w-6" />,
-      count: 5,
+      count: getCategoryCount("First Aid"),
       color: "bg-red-100 text-red-600"
     },
     {
       id: "diy",
       title: "DIY and Hands-On Skills",
       icon: <Wrench className="h-6 w-6" />,
-      count: 10,
+      count: getCategoryCount("DIY"),
       color: "bg-purple-100 text-purple-600"
     },
     {
       id: "creative",
       title: "Creative and Maker Skills",
-      icon: <BookOpen className="h-6 w-6" />,
-      count: 7,
+      icon: <Palette className="h-6 w-6" />, // Changed icon
+      count: getCategoryCount("Creative"),
       color: "bg-pink-100 text-pink-600"
     },
     {
       id: "sustainability",
       title: "Sustainability and Outdoor Skills",
-      icon: <Leaf className="h-6 w-6" />,
-      count: 6,
+      icon: <Sprout className="h-6 w-6" />, // Changed icon
+      count: getCategoryCount("Sustainability"),
       color: "bg-lime-100 text-lime-600"
     },
     {
       id: "future-ready",
       title: "Future Ready Skills",
-      icon: <Zap className="h-6 w-6" />,
-      count: 7,
+      icon: <Rocket className="h-6 w-6" />, // Changed icon
+      count: getCategoryCount("Future Ready"),
       color: "bg-indigo-100 text-indigo-600"
     }
   ];

@@ -6,9 +6,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, FirstAidKit, Scissors, Zap, Search, ZapIcon } from "lucide-react";
+import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, FirstAidKit, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
+import { Input } from "@/components/ui/input"; // Added Input import
 
 const CategoryDetail = () => {
   const { id } = useParams();
@@ -63,22 +64,22 @@ const CategoryDetail = () => {
     },
     "creative": {
       title: "Creative and Maker Skills",
-      icon: <BookOpen className="h-6 w-6" />,
+      icon: <Palette className="h-6 w-6" />,
       color: "bg-pink-100 text-pink-600"
     },
     "sustainability": {
       title: "Sustainability and Outdoor Skills",
-      icon: <Leaf className="h-6 w-6" />,
+      icon: <Sprout className="h-6 w-6" />,
       color: "bg-lime-100 text-lime-600"
     },
     "future-ready": {
       title: "Future Ready Skills",
-      icon: <Zap className="h-6 w-6" />,
+      icon: <Rocket className="h-6 w-6" />,
       color: "bg-indigo-100 text-indigo-600"
     }
   };
 
-  // Map categories to activity categories
+  // Map category IDs to activity categories
   const categoryMap: Record<string, string> = {
     "life-skills": "Life Skills",
     "cooking": "Cooking",
@@ -99,9 +100,7 @@ const CategoryDetail = () => {
   const categoryColor = categoryInfo[id || ""]?.color || "bg-gray-100 text-gray-600";
   
   const categoryActivities = activities.filter(activity => 
-    activity.category === categoryMap[id || ""] || 
-    (id === "life-skills" && activity.category === "Life Skills") ||
-    (id === "first-aid" && activity.category === "First Aid")
+    activity.category === categoryMap[id || ""]
   );
 
   const filteredActivities = categoryActivities.filter(activity => 
@@ -114,7 +113,11 @@ const CategoryDetail = () => {
     1: 30,
     13: 60,
     26: 80,
-    41: 20
+    41: 20,
+    76: 50, // Example for DIY
+    101: 10, // Example for Creative
+    126: 75, // Example for Sustainability
+    151: 40  // Example for Future Ready
   });
 
   return (

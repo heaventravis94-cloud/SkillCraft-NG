@@ -6,22 +6,24 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { TrendingUp, BookOpen, CheckCircle, Clock } from "lucide-react";
+import { activities } from "@/data/activities"; // Import activities data
 
 const ProgressOverview = () => {
   const [stats] = useState({
-    totalActivities: 50,
-    completedActivities: 12,
-    inProgressActivities: 8,
-    totalHours: 24,
-    streak: 7
+    totalActivities: activities.length, // Dynamically get total activities
+    completedActivities: 12, // Mock data for now
+    inProgressActivities: 8, // Mock data for now
+    totalHours: 24, // Mock data for now
+    streak: 7 // Mock data for now
   });
 
   const categories = [
-    { name: "Life Skills", completed: 5, total: 12, color: "bg-blue-500" },
-    { name: "Cooking", completed: 3, total: 8, color: "bg-orange-500" },
-    { name: "DIY", completed: 2, total: 10, color: "bg-purple-500" },
-    { name: "Creative", completed: 1, total: 7, color: "bg-pink-500" },
-    { name: "Sustainability", completed: 1, total: 6, color: "bg-green-500" }
+    { name: "Life Skills", completed: 5, total: activities.filter(a => a.category === "Life Skills").length, color: "bg-blue-500" },
+    { name: "Cooking", completed: 3, total: activities.filter(a => a.category === "Cooking").length, color: "bg-orange-500" },
+    { name: "DIY", completed: 2, total: activities.filter(a => a.category === "DIY").length, color: "bg-purple-500" },
+    { name: "Creative", completed: 1, total: activities.filter(a => a.category === "Creative").length, color: "bg-pink-500" },
+    { name: "Sustainability", completed: 1, total: activities.filter(a => a.category === "Sustainability").length, color: "bg-green-500" },
+    { name: "Future Ready", completed: 1, total: activities.filter(a => a.category === "Future Ready").length, color: "bg-indigo-500" }
   ];
 
   const recentActivities = [

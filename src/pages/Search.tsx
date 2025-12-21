@@ -6,58 +6,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Search as SearchIcon, Clock } from "lucide-react";
+import { activities } from "@/data/activities"; // Import the activities data
+import { Link } from "react-router-dom"; // Import Link for navigation
 
 const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
   
-  const activities = [
-    {
-      id: 1,
-      title: "Basic Pasta Cooking",
-      category: "Cooking",
-      difficulty: "Beginner",
-      time: "20 mins",
-      completed: false,
-      progress: 60
-    },
-    {
-      id: 2,
-      title: "Laundry Sorting Basics",
-      category: "Life Skills",
-      difficulty: "Beginner",
-      time: "15 mins",
-      completed: true,
-      progress: 100
-    },
-    {
-      id: 3,
-      title: "Simple Wood Cutting",
-      category: "DIY",
-      difficulty: "Intermediate",
-      time: "45 mins",
-      completed: false,
-      progress: 0
-    },
-    {
-      id: 4,
-      title: "Container Gardening Basics",
-      category: "Sustainability",
-      difficulty: "Beginner",
-      time: "30 mins",
-      completed: false,
-      progress: 0
-    },
-    {
-      id: 5,
-      title: "Budgeting for a Week",
-      category: "Future Ready",
-      difficulty: "Beginner",
-      time: "25 mins",
-      completed: false,
-      progress: 0
-    }
-  ];
-
   const filteredActivities = activities.filter(activity => 
     activity.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     activity.category.toLowerCase().includes(searchTerm.toLowerCase())
@@ -110,10 +64,16 @@ const SearchPage = () => {
                     </CardHeader>
                     <CardContent>
                       <div className="flex space-x-2">
-                        <Button className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600">
-                          {activity.progress > 0 ? "Continue" : "Start Activity"}
+                        <Button className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600" asChild>
+                          <Link to={`/activity/${activity.id}`}>
+                            Start Activity
+                          </Link>
                         </Button>
-                        <Button variant="outline">Details</Button>
+                        <Button variant="outline" asChild>
+                          <Link to={`/activity/${activity.id}`}>
+                            Details
+                          </Link>
+                        </Button>
                       </div>
                     </CardContent>
                   </Card>
