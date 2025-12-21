@@ -8,8 +8,9 @@ import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Textarea } from "@/components/ui/textarea";
 import { Progress } from "@/components/ui/progress";
-import { Star, Clock, Users, ShieldAlert, CheckCircle, Zap, ZapIcon } from "lucide-react";
+import { Star, Clock, Users, ShieldAlert, CheckCircle, ZapIcon } from "lucide-react";
 import { activities } from "@/data/activities";
+import { useFavorites } from "@/contexts/FavoritesContext"; // Import useFavorites
 
 const ActivityDetail = () => {
   const { id } = useParams();
@@ -18,7 +19,9 @@ const ActivityDetail = () => {
   
   const [completedSteps, setCompletedSteps] = useState<boolean[]>(Array(activity.steps.length).fill(false));
   const [notes, setNotes] = useState("");
-  const [isFavorite, setIsFavorite] = useState(false);
+  
+  const { isFavorite, toggleFavorite } = useFavorites(); // Use the favorites hook
+  const currentIsFavorite = isFavorite(activity.id); // Get current favorite status
 
   const toggleStep = (index: number) => {
     const newCompletedSteps = [...completedSteps];
@@ -50,9 +53,9 @@ const ActivityDetail = () => {
             <Button 
               variant="ghost" 
               size="icon"
-              onClick={() => setIsFavorite(!isFavorite)}
+              onClick={() => toggleFavorite(activity.id)} // Use toggleFavorite from context
             >
-              <ZapIcon className={`h-6 w-6 ${isFavorite ? "fill-yellow-400 text-yellow-400" : "text-gray-400"}`} />
+              <ZapIcon className={`h-6 w-6 ${currentIsFavorite ? "fill-yellow-400 text-yellow-400" : "text-gray-400"}`} />
             </Button>
           </div>
         </div>

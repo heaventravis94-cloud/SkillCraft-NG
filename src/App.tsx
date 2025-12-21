@@ -12,6 +12,7 @@ import ProgressOverview from "./pages/Progress";
 import SearchPage from "./pages/Search";
 import Navigation from "./components/Navigation";
 import NotFound from "./pages/NotFound";
+import { FavoritesProvider } from "./contexts/FavoritesContext"; // Import FavoritesProvider
 
 const queryClient = new QueryClient();
 
@@ -21,20 +22,22 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <div className="pb-16">
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/library" element={<SkillLibrary />} />
-            <Route path="/category/:id" element={<CategoryDetail />} />
-            <Route path="/activity/:id" element={<ActivityDetail />} />
-            <Route path="/favorites" element={<Favorites />} />
-            <Route path="/progress" element={<ProgressOverview />} />
-            <Route path="/search" element={<SearchPage />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </div>
-        <Navigation />
+        <FavoritesProvider> {/* Wrap with FavoritesProvider */}
+          <div className="pb-16">
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/library" element={<SkillLibrary />} />
+              <Route path="/category/:id" element={<CategoryDetail />} />
+              <Route path="/activity/:id" element={<ActivityDetail />} />
+              <Route path="/favorites" element={<Favorites />} />
+              <Route path="/progress" element={<ProgressOverview />} />
+              <Route path="/search" element={<SearchPage />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </div>
+          <Navigation />
+        </FavoritesProvider>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

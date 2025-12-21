@@ -9,11 +9,13 @@ import { Progress } from "@/components/ui/progress";
 import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
-import { Input } from "@/components/ui/input"; // Added Input import
+import { Input } from "@/components/ui/input";
+import { useFavorites } from "@/contexts/FavoritesContext"; // Import useFavorites
 
 const CategoryDetail = () => {
   const { id } = useParams();
   const [searchTerm, setSearchTerm] = useState("");
+  const { isFavorite, toggleFavorite, favoriteActivityIds } = useFavorites(); // Use the favorites hook
 
   // Map category IDs to titles and icons
   const categoryInfo: Record<string, { title: string; icon: JSX.Element; color: string }> = {
@@ -178,7 +180,7 @@ const CategoryDetail = () => {
           </Card>
           <Card className="bg-white/70 backdrop-blur-sm border-0 shadow-md">
             <CardContent className="p-4 text-center">
-              <div className="text-2xl font-bold text-pink-600">4</div>
+              <div className="text-2xl font-bold text-pink-600">{favoriteActivityIds.length}</div> {/* Display favorite count */}
               <div className="text-sm text-gray-600">Favorites</div>
             </CardContent>
           </Card>
@@ -202,8 +204,12 @@ const CategoryDetail = () => {
                         </div>
                       </div>
                     </div>
-                    <Button variant="ghost" size="icon">
-                      <ZapIcon className={`h-5 w-5 ${progress > 0 ? "fill-yellow-400 text-yellow-400" : "text-gray-400"}`} />
+                    <Button 
+                      variant="ghost" 
+                      size="icon"
+                      onClick={() => toggleFavorite(activity.id)} // Use toggleFavorite from context
+                    >
+                      <ZapIcon className={`h-5 w-5 ${isFavorite(activity.id) ? "fill-yellow-400 text-yellow-400" : "text-gray-400"}`} />
                     </Button>
                   </div>
                 </CardHeader>
@@ -221,7 +227,11 @@ const CategoryDetail = () => {
                         {progress > 0 ? "Continue" : "Start Activity"}
                       </Link>
                     </Button>
-                    <Button variant="outline">Details</Button>
+                    <Button variant="outline" asChild>
+                      <Link to={`/activity/${activity.id}`}>
+                        Details
+                      </Link>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
