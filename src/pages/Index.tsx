@@ -121,41 +121,41 @@ const Index = () => {
         <section className="mb-8">
           <h2 className="text-xl font-bold mb-4">Explore Skills</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <Card className="bg-gradient-to-br from-purple-100 to-purple-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer" asChild>
-              <Link to="/library">
+            <Link to="/library">
+              <Card className="bg-gradient-to-br from-purple-100 to-purple-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer">
                 <CardContent className="p-4 text-center">
                   <BookOpen className="h-8 w-8 mx-auto mb-2 text-purple-600" />
                   <h3 className="font-semibold">Skill Library</h3>
                 </CardContent>
-              </Link>
-            </Card>
+              </Card>
+            </Link>
             
-            <Card className="bg-gradient-to-br from-blue-100 to-blue-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer" asChild>
-              <Link to="/search">
+            <Link to="/search">
+              <Card className="bg-gradient-to-br from-blue-100 to-blue-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer">
                 <CardContent className="p-4 text-center">
                   <Search className="h-8 w-8 mx-auto mb-2 text-blue-600" />
                   <h3 className="font-semibold">Search</h3>
                 </CardContent>
-              </Link>
-            </Card>
+              </Card>
+            </Link>
             
-            <Card className="bg-gradient-to-br from-pink-100 to-pink-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer" asChild>
-              <Link to="/favorites">
+            <Link to="/favorites">
+              <Card className="bg-gradient-to-br from-pink-100 to-pink-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer">
                 <CardContent className="p-4 text-center">
                   <Heart className="h-8 w-8 mx-auto mb-2 text-pink-600" />
                   <h3 className="font-semibold">Favorites ({favoriteActivityIds.length})</h3> {/* Display favorite count */}
                 </CardContent>
-              </Link>
-            </Card>
+              </Card>
+            </Link>
             
-            <Card className="bg-gradient-to-br from-green-100 to-green-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer" asChild>
-              <Link to="/progress">
+            <Link to="/progress">
+              <Card className="bg-gradient-to-br from-green-100 to-green-200 border-0 shadow-md hover:shadow-lg transition-all cursor-pointer">
                 <CardContent className="p-4 text-center">
                   <TrendingUp className="h-8 w-8 mx-auto mb-2 text-green-600" />
                   <h3 className="font-semibold">Progress</h3>
                 </CardContent>
-              </Link>
-            </Card>
+              </Card>
+            </Link>
           </div>
         </section>
 
