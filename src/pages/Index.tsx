@@ -13,11 +13,8 @@ import { activities } from "@/data/activities"; // Import activities to get full
 const Index = () => {
   const { isFavorite, toggleFavorite, favoriteActivityIds } = useFavorites(); // Use the favorites hook
 
-  const [recentActivities] = useState([
-    { id: 13, title: "Basic Pasta Cooking", category: "Cooking", progress: 60 },
-    { id: 1, title: "Laundry Sorting Basics", category: "Life Skills", progress: 30 },
-    { id: 26, title: "Stain Removal Techniques", category: "Laundry", progress: 80 }
-  ]);
+  // Set recentActivities to an empty array to show no progress
+  const [recentActivities] = useState([]);
 
   const popularActivities = [
     { id: 41, title: "Income and Expense Tracking", category: "Budgeting", difficulty: "Beginner", time: "30 mins" },
@@ -86,35 +83,39 @@ const Index = () => {
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {recentActivities.map((activity) => (
-              <Card key={activity.id} className="bg-white/70 backdrop-blur-sm border-0 shadow-md hover:shadow-lg transition-shadow">
-                <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">{activity.title}</CardTitle>
-                  <Badge variant="outline">{activity.category}</Badge>
-                </CardHeader>
-                <CardContent>
-                  <div className="mb-3">
-                    <div className="flex justify-between text-sm mb-1">
-                      <span>Progress</span>
-                      <span>{activity.progress}%</span>
+          {recentActivities.length === 0 ? (
+            <div className="text-center py-6 text-gray-500">No activities in progress. Start a new one!</div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {recentActivities.map((activity) => (
+                <Card key={activity.id} className="bg-white/70 backdrop-blur-sm border-0 shadow-md hover:shadow-lg transition-shadow">
+                  <CardHeader className="pb-2">
+                    <CardTitle className="text-lg">{activity.title}</CardTitle>
+                    <Badge variant="outline">{activity.category}</Badge>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="mb-3">
+                      <div className="flex justify-between text-sm mb-1">
+                        <span>Progress</span>
+                        <span>{activity.progress}%</span>
+                      </div>
+                      <div className="w-full bg-gray-200 rounded-full h-2">
+                        <div 
+                          className="bg-gradient-to-r from-purple-500 to-pink-500 h-2 rounded-full" 
+                          style={{ width: `${activity.progress}%` }}
+                        ></div>
+                      </div>
                     </div>
-                    <div className="w-full bg-gray-200 rounded-full h-2">
-                      <div 
-                        className="bg-gradient-to-r from-purple-500 to-pink-500 h-2 rounded-full" 
-                        style={{ width: `${activity.progress}%` }}
-                      ></div>
-                    </div>
-                  </div>
-                  <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600" asChild>
-                    <Link to={`/activity/${activity.id}`}>
-                      Continue
-                    </Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+                    <Button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600" asChild>
+                      <Link to={`/activity/${activity.id}`}>
+                        Continue
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          )}
         </section>
 
         {/* Quick Navigation */}
