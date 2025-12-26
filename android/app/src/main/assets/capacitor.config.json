@@ -1,6 +1,5 @@
 {
-	"appId": "com.skillcraftng.app",
-	"appName": "SkillCraft NG",
-	"webDir": "dist",
-	"bundledWebRuntime": false
+	"appId": "com.skillcraftnextgen.app",
+	"appName": "SkillCraft NextGen",
+	"webDir": "dist"
 }
