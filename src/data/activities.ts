@@ -171,7 +171,7 @@ export const activities: Activity[] = [
       "Eliminate neither urgent nor important activities"
     ],
     troubleshooting: [
-      "If overwhelmed, focus only on urgent/important quadrant",
+      "If system feels overwhelming, start with one area at a time",
       "If tasks keep multiplying, set daily limits",
       "If delegation is difficult, start with small requests"
     ]
@@ -4775,7 +4775,7 @@ export const activities: Activity[] = [
       "If photo quality degrades after editing, ensure you are saving in a high-quality format (e.g., JPEG at high quality)."
     ]
   },
-  // --- NEW ACTIVITIES START HERE (ID 226 to 250) ---
+  // --- NEW ACTIVITIES START HERE (ID 176 to 225) ---
 
   // Life & Independence Skills (5 new)
   {
@@ -5318,6 +5318,2130 @@ export const activities: Activity[] = [
       "If you're unsure where to put a file, create a temporary 'To Sort' folder.",
       "If you accidentally delete a file, check your recycle bin/trash.",
       "If cloud storage is full, review what's stored and delete old versions or unnecessary files."
+    ]
+  },
+  // --- NEW ACTIVITIES START HERE (ID 251 to 350) ---
+
+  // Creative & Expressive (20 new activities)
+  {
+    id: 251,
+    title: "Digital Drawing: Basic Shapes & Lines",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Tablet/Computer", "Stylus (optional)", "Digital drawing app (Procreate, Sketchbook, Krita)"],
+    steps: [
+      "Open your chosen digital drawing app and create a new canvas.",
+      "Familiarize yourself with the basic brush tools and canvas navigation.",
+      "Practice drawing straight lines, circles, squares, and triangles.",
+      "Experiment with different line weights and opacities.",
+      "Use the undo/redo functions to correct mistakes and try again.",
+      "Focus on control and consistency in your strokes."
+    ],
+    troubleshooting: [
+      "If lines are wobbly, adjust stabilization settings in your brush options.",
+      "If app is slow, close other applications or reduce canvas size.",
+      "If stylus isn't working, check battery or connection."
+    ]
+  },
+  {
+    id: 252,
+    title: "Character Design: Simple Expressions",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Paper/Tablet", "Pencil/Stylus", "Eraser"],
+    steps: [
+      "Start by drawing a basic head shape (circle or oval).",
+      "Add guidelines for eyes, nose, and mouth placement.",
+      "Draw simple eyes, eyebrows, and a mouth to convey a neutral expression.",
+      "Modify these features to create happy, sad, angry, and surprised expressions.",
+      "Pay attention to how eyebrows and mouth corners change for each emotion.",
+      "Practice drawing the same character with different expressions."
+    ],
+    troubleshooting: [
+      "If expressions look unnatural, use a mirror to observe your own face.",
+      "If features are uneven, use guidelines and symmetry tools (if digital).",
+      "If struggling, simplify features to basic shapes first."
+    ]
+  },
+  {
+    id: 253,
+    title: "Canva Basics: Creating a Social Media Post",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Computer/Smartphone", "Canva account (free)"],
+    steps: [
+      "Log in to Canva and select 'Social Media' from the design options.",
+      "Choose a template or start with a blank canvas.",
+      "Add text, images, and elements (shapes, icons) from Canva's library.",
+      "Customize colors, fonts, and layout to match your style.",
+      "Ensure text is readable and images are high quality.",
+      "Download your design in the appropriate format (PNG, JPG)."
+    ],
+    troubleshooting: [
+      "If design looks cluttered, remove unnecessary elements.",
+      "If colors clash, use Canva's color palette suggestions.",
+      "If text is hard to read, increase font size or choose a simpler font."
+    ]
+  },
+  {
+    id: 254,
+    title: "Basic Video Editing: Trimming & Cutting (CapCut)",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Smartphone", "CapCut app", "Short video clip"],
+    steps: [
+      "Open CapCut and start a new project, importing your video clip.",
+      "Tap on the video clip in the timeline to select it.",
+      "Use the 'Split' tool to cut out unwanted sections of the video.",
+      "Drag the ends of clips to trim their duration.",
+      "Rearrange clips in the timeline to change their order.",
+      "Preview your edited video and export it."
+    ],
+    troubleshooting: [
+      "If cuts are too abrupt, use transition effects (optional).",
+      "If video quality drops, ensure original clip is high resolution.",
+      "If app crashes, ensure enough storage space on your phone."
+    ]
+  },
+  {
+    id: 255,
+    title: "Phone Photography: Rule of Thirds",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Smartphone camera", "Objects to photograph"],
+    steps: [
+      "Open your phone's camera app and enable the grid overlay (usually in settings).",
+      "Find a subject and position it along the grid lines or at their intersections.",
+      "Take several photos, experimenting with placing the subject in different grid positions.",
+      "Observe how placing the subject off-center creates more dynamic compositions.",
+      "Practice with landscapes, portraits, and still life objects.",
+      "Review your photos to see the impact of the rule of thirds."
+    ],
+    troubleshooting: [
+      "If grid isn't visible, check camera settings for 'grid' or 'composition lines'.",
+      "If photos are blurry, ensure good lighting and a steady hand.",
+      "If composition feels off, try different angles or move closer/further from subject."
+    ]
+  },
+  {
+    id: 256,
+    title: "Music Remixing: Basic Loop Creation (BandLab)",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Smartphone/Computer", "BandLab app/website", "Headphones"],
+    steps: [
+      "Open BandLab and start a new project.",
+      "Explore the 'Looper' or 'Sounds' section to find pre-made loops (drums, bass, melody).",
+      "Drag and drop a few loops onto different tracks in your project.",
+      "Adjust the volume and pan of each track to create a balanced mix.",
+      "Experiment with different combinations of loops to create a unique sound.",
+      "Save your project and share your first remix."
+    ],
+    troubleshooting: [
+      "If sounds clash, try different keys or tempos for your loops.",
+      "If mix sounds muddy, reduce bass frequencies or adjust individual track volumes.",
+      "If app lags, close other applications or use a device with more processing power."
+    ]
+  },
+  {
+    id: 257,
+    title: "Creative Writing: Brainstorming Story Ideas",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Notebook", "Pen", "Timer"],
+    steps: [
+      "Set a timer for 15 minutes and free-write about anything that comes to mind.",
+      "Choose a prompt (e.g., 'a mysterious old key', 'a talking animal', 'a secret garden').",
+      "Brainstorm characters: who are they, what do they want, what's their secret?",
+      "Brainstorm settings: where does the story take place, what does it look like, what's the mood?",
+      "Brainstorm conflicts: what problem do the characters face, what stands in their way?",
+      "Combine elements to form 2-3 potential story ideas."
+    ],
+    troubleshooting: [
+      "If you get stuck, try a different prompt or look at images for inspiration.",
+      "If ideas are too generic, add specific details or a unique twist.",
+      "If you have too many ideas, pick one to focus on for now."
+    ]
+  },
+  {
+    id: 258,
+    title: "Spoken Word Poetry: Writing Your First Piece",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Notebook", "Pen", "Voice recorder (phone)"],
+    steps: [
+      "Choose a topic you feel strongly about (e.g., a personal experience, a social issue).",
+      "Brainstorm words, phrases, and emotions related to your topic.",
+      "Write freely, focusing on rhythm, repetition, and vivid imagery.",
+      "Read your piece aloud to hear how it sounds and identify awkward phrasing.",
+      "Experiment with different vocal tones, pauses, and emphasis.",
+      "Record yourself performing a short section and listen back for improvements."
+    ],
+    troubleshooting: [
+      "If you struggle with rhythm, listen to other spoken word artists for inspiration.",
+      "If words don't flow, try writing in bullet points first.",
+      "If you feel self-conscious, practice in a private space first."
+    ]
+  },
+  {
+    id: 259,
+    title: "Digital Painting: Basic Color Blending",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "75 mins",
+    supplies: ["Tablet/Computer", "Stylus", "Digital painting app (Procreate, Photoshop, Krita)"],
+    steps: [
+      "Open your digital painting app and create a new canvas.",
+      "Select two contrasting colors and paint two adjacent blocks.",
+      "Choose a soft brush and experiment with blending the edges where the colors meet.",
+      "Learn about different blending modes and their effects.",
+      "Practice blending colors to create smooth gradients.",
+      "Try blending colors on a simple object to create realistic shading."
+    ],
+    troubleshooting: [
+      "If colors look muddy, use a clean brush or layer colors carefully.",
+      "If blending is too harsh, use a softer brush or lower brush opacity.",
+      "If app is slow, reduce canvas resolution or number of layers."
+    ]
+  },
+  {
+    id: 260,
+    title: "Video Editing: Adding Music & Text (InShot)",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Smartphone", "InShot app", "Short video clip", "Music file (optional)"],
+    steps: [
+      "Import your video clip into InShot.",
+      "Tap 'Music' and choose from InShot's library or import your own.",
+      "Adjust music volume and trim it to fit your video.",
+      "Tap 'Text' to add titles, captions, or subtitles.",
+      "Customize text font, color, animation, and duration.",
+      "Preview your video and export it."
+    ],
+    troubleshooting: [
+      "If music is too loud/quiet, adjust volume sliders.",
+      "If text is hard to read, use a contrasting color or add a background box.",
+      "If app lags, ensure enough storage space on your phone."
+    ]
+  },
+  {
+    id: 261,
+    title: "Photography: Understanding Lighting",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Smartphone camera", "Subject (person or object)", "Natural light source (window, outdoors)"],
+    steps: [
+      "Find a subject and place it near a window or outdoors.",
+      "Take photos with the light coming from different directions (front, side, back).",
+      "Observe how front lighting flattens the subject, side lighting creates drama, and backlighting creates silhouettes.",
+      "Experiment with soft light (overcast day, diffused window) vs. harsh light (direct sun).",
+      "Notice how shadows change the mood and depth of your photos.",
+      "Review your photos to understand the impact of different lighting."
+    ],
+    troubleshooting: [
+      "If photos are overexposed, move subject away from direct light or use exposure compensation.",
+      "If photos are underexposed, find a brighter spot or use a reflector.",
+      "If shadows are too harsh, use a diffuser (e.g., a white sheet) to soften the light."
+    ]
+  },
+  {
+    id: 262,
+    title: "Beat Making: Basic Drum Patterns (GarageBand)",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["iPhone/iPad/Mac", "GarageBand app", "Headphones"],
+    steps: [
+      "Open GarageBand and start a new song.",
+      "Select the 'Drums' instrument or 'Drummer' track.",
+      "Experiment with different drum kits and styles.",
+      "Use the step sequencer or smart drums to create a simple 4-beat drum pattern.",
+      "Add variations to your pattern (e.g., hi-hats on off-beats, snare on 2 & 4).",
+      "Loop your drum pattern and listen to how it forms a groove."
+    ],
+    troubleshooting: [
+      "If beat sounds robotic, add some swing or humanize the timing.",
+      "If sounds are too loud/quiet, adjust individual drum element volumes.",
+      "If app lags, close other applications or use a device with more processing power."
+    ]
+  },
+  {
+    id: 263,
+    title: "Creative Writing: Developing Characters",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Notebook", "Pen", "Character template (optional)"],
+    steps: [
+      "Choose one of your story ideas and focus on a main character.",
+      "Give them a name, age, and a brief physical description.",
+      "Explore their personality: what are their strengths, weaknesses, fears, desires?",
+      "Think about their backstory: what events shaped them?",
+      "Consider their relationships with other characters.",
+      "Write a short scene from their perspective, showing (not just telling) their personality."
+    ],
+    troubleshooting: [
+      "If character feels flat, give them a secret or a contradiction.",
+      "If you struggle with motivation, imagine them in a difficult situation.",
+      "If character is too similar to you, give them opposite traits."
+    ]
+  },
+  {
+    id: 264,
+    title: "Poetry: Exploring Metaphor & Simile",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Notebook", "Pen", "List of abstract concepts (e.g., love, fear, joy)"],
+    steps: [
+      "Understand the difference: simile uses 'like' or 'as', metaphor states one thing IS another.",
+      "Choose an abstract concept (e.g., 'happiness').",
+      "Brainstorm concrete objects or experiences that remind you of that concept.",
+      "Write 3-5 similes comparing your concept to these objects (e.g., 'Happiness is like a warm blanket').",
+      "Write 3-5 metaphors stating your concept IS these objects (e.g., 'Happiness is a warm blanket').",
+      "Read them aloud and notice the different impact of each."
+    ],
+    troubleshooting: [
+      "If comparisons feel forced, try a different concept or object.",
+      "If you struggle to find connections, think about senses (sight, sound, touch).",
+      "If lines are too long, break them into shorter, more impactful phrases."
+    ]
+  },
+  {
+    id: 265,
+    title: "Digital Art: Basic Shading & Highlights",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Tablet/Computer", "Stylus", "Digital drawing app"],
+    steps: [
+      "Draw a simple 3D shape (sphere, cube) on your canvas.",
+      "Imagine a light source hitting the object from one direction.",
+      "Use a darker shade of your base color to add shadows to the areas away from the light.",
+      "Use a lighter shade or white to add highlights to the areas directly hit by light.",
+      "Experiment with soft and hard edges for shadows and highlights.",
+      "Practice on different shapes to understand how light interacts with form."
+    ],
+    troubleshooting: [
+      "If shading looks flat, ensure a clear distinction between light, mid-tone, and shadow areas.",
+      "If highlights are too bright, reduce opacity or use a softer brush.",
+      "If you struggle with light source, use a real object and a lamp as reference."
+    ]
+  },
+  {
+    id: 266,
+    title: "Video Editing: Basic Transitions (CapCut)",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Smartphone", "CapCut app", "Two short video clips"],
+    steps: [
+      "Import two video clips into CapCut and place them side-by-side in the timeline.",
+      "Tap the white box between the two clips to open the transitions menu.",
+      "Browse different transition categories (e.g., 'Mix', 'Camera', 'Effect').",
+      "Select a transition and adjust its duration.",
+      "Experiment with 2-3 different transitions to see their effects.",
+      "Preview your video and export it."
+    ],
+    troubleshooting: [
+      "If transitions feel jarring, use shorter durations or simpler effects.",
+      "If app lags, ensure enough storage space on your phone.",
+      "If you can't find a specific transition, search CapCut's library or online tutorials."
+    ]
+  },
+  {
+    id: 267,
+    title: "Photography: Storytelling with Images",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Smartphone camera", "Theme/concept (e.g., 'a day in my life', 'my favorite place')"],
+    steps: [
+      "Choose a simple story or theme you want to tell with 3-5 photos.",
+      "Plan your shots: what's the beginning, middle, and end of your visual story?",
+      "Take photos that capture different aspects of your theme, focusing on details and emotions.",
+      "Consider the sequence of your photos and how they flow together.",
+      "Edit your photos for consistency in style and mood.",
+      "Arrange your photos to tell your story without words."
+    ],
+    troubleshooting: [
+      "If story isn't clear, add more descriptive photos or simplify the narrative.",
+      "If photos lack impact, focus on stronger composition and lighting.",
+      "If you struggle with a theme, start with a simple object and tell its 'story'."
+    ]
+  },
+  {
+    id: 268,
+    title: "Music Production: Adding Vocals (BandLab)",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Smartphone/Computer", "BandLab app/website", "Headphones with mic", "Instrumental track"],
+    steps: [
+      "Import or create an instrumental track in BandLab.",
+      "Add a new 'Voice/Mic' track.",
+      "Connect your headphones with a microphone (or use built-in mic).",
+      "Practice singing/rapping/speaking over your instrumental.",
+      "Record your vocals, focusing on timing and clarity.",
+      "Edit your vocal track: adjust volume, add effects (reverb, delay), and clean up noise."
+    ],
+    troubleshooting: [
+      "If vocals sound off-key, use auto-tune effects (optional) or practice more.",
+      "If background noise is present, record in a quieter space or use noise reduction.",
+      "If vocals are too quiet/loud, adjust track volume and mic gain."
+    ]
+  },
+  {
+    id: 269,
+    title: "Creative Writing: Dialogue Essentials",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Notebook", "Pen", "Two character ideas"],
+    steps: [
+      "Choose two characters and a simple scenario (e.g., meeting for coffee, arguing about a chore).",
+      "Write a conversation between them, focusing on natural speech patterns.",
+      "Use dialogue tags (e.g., 'he said', 'she asked') sparingly and effectively.",
+      "Show character personality through their words and how they speak.",
+      "Avoid long speeches; keep dialogue concise and purposeful.",
+      "Read the dialogue aloud to ensure it sounds realistic."
+    ],
+    troubleshooting: [
+      "If dialogue sounds stiff, listen to real conversations for inspiration.",
+      "If characters sound the same, give them distinct vocabularies or speech quirks.",
+      "If dialogue doesn't advance the plot, ensure each line serves a purpose."
+    ]
+  },
+  {
+    id: 270,
+    title: "Poetry: Free Verse & Imagery",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Notebook", "Pen", "Sensory details (sight, sound, smell, taste, touch)"],
+    steps: [
+      "Understand free verse: poetry without a strict rhyme scheme or meter.",
+      "Choose a subject (e.g., a park, a memory, a feeling).",
+      "Brainstorm vivid sensory details related to your subject.",
+      "Write a poem, focusing on creating strong images and emotions.",
+      "Experiment with line breaks to create rhythm and emphasis.",
+      "Read your poem aloud to feel its natural flow."
+    ],
+    troubleshooting: [
+      "If poem feels like prose, use shorter lines and more evocative language.",
+      "If imagery is weak, add more specific sensory details.",
+      "If you get stuck, try writing about a different subject or using a different form."
+    ]
+  },
+
+  // Smart & Practical (20 new activities)
+  {
+    id: 271,
+    title: "Basic Baking: Chocolate Chip Cookies",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "40 mins",
+    supplies: ["Butter", "Sugar", "Eggs", "Flour", "Baking soda", "Salt", "Chocolate chips", "Mixing bowls", "Baking sheet"],
+    safetyNotes: "Always use oven mitts for hot trays. Do not eat raw cookie dough with eggs.",
+    steps: [
+      "Preheat oven to 375°F (190°C). Line baking sheet with parchment paper.",
+      "Cream butter and sugars until light and fluffy.",
+      "Beat in eggs one at a time, then vanilla.",
+      "Whisk flour, baking soda, and salt in a separate bowl.",
+      "Gradually add dry ingredients to wet, mixing until just combined.",
+      "Stir in chocolate chips. Drop spoonfuls onto baking sheet.",
+      "Bake 9-11 minutes until edges are golden. Cool on rack."
+    ],
+    troubleshooting: [
+      "If cookies spread too much, chill dough before baking.",
+      "If cookies are hard, reduce baking time.",
+      "If cookies don't spread, butter might be too cold."
+    ]
+  },
+  {
+    id: 272,
+    title: "Budgeting: Tracking Daily Expenses",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Notebook/app", "Pen", "Receipts/bank statements"],
+    steps: [
+      "Choose a method: notebook, spreadsheet, or budgeting app.",
+      "For one week, record every single expense, no matter how small.",
+      "Categorize each expense (e.g., food, transport, entertainment).",
+      "At the end of the week, sum up your spending in each category.",
+      "Identify where your money is actually going.",
+      "Use this data to inform future spending decisions."
+    ],
+    troubleshooting: [
+      "If you forget to track, set daily reminders on your phone.",
+      "If categories are unclear, simplify them (e.g., 'Everything Else').",
+      "If spending is higher than expected, don't get discouraged, just observe."
+    ]
+  },
+  {
+    id: 273,
+    title: "Time Management: The 2-Minute Rule",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["To-do list"],
+    steps: [
+      "Look at your to-do list or incoming tasks.",
+      "Identify any task that can be completed in 2 minutes or less.",
+      "Do that task immediately, without procrastinating.",
+      "Examples: reply to a quick email, wash a dish, put away a single item.",
+      "Repeat throughout the day as new small tasks arise.",
+      "Notice how quickly small tasks disappear, reducing mental clutter."
+    ],
+    troubleshooting: [
+      "If tasks take longer than 2 minutes, break them down or defer them.",
+      "If you forget the rule, put a sticky note on your computer.",
+      "If you still procrastinate, try setting a timer for 2 minutes."
+    ]
+  },
+  {
+    id: 274,
+    title: "Public Speaking: Overcoming Nerves",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Topic to speak on", "Mirror or friend"],
+    steps: [
+      "Choose a simple topic you know well (e.g., your favorite hobby).",
+      "Practice deep breathing exercises before speaking.",
+      "Start by speaking to a mirror, focusing on eye contact with your reflection.",
+      "Record yourself speaking for 1-2 minutes and listen back.",
+      "Identify one small thing to improve (e.g., slower pace, clearer articulation).",
+      "Practice with a trusted friend, asking for constructive feedback."
+    ],
+    troubleshooting: [
+      "If nerves are overwhelming, focus on one friendly face in the audience.",
+      "If you speak too fast, consciously pause between sentences.",
+      "If you forget what to say, have a few key bullet points on a card."
+    ]
+  },
+  {
+    id: 275,
+    title: "Language Learning: Basic Greetings & Introductions",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Language learning app (Duolingo, Babbel)", "Notebook", "Pen"],
+    steps: [
+      "Choose a language you want to learn.",
+      "Learn 3-5 basic greetings (e.g., 'Hello', 'Good morning', 'How are you?').",
+      "Learn how to introduce yourself (e.g., 'My name is...', 'I am from...').",
+      "Practice saying these phrases aloud, focusing on pronunciation.",
+      "Use a language app to hear native speakers and repeat after them.",
+      "Try to use these phrases in a real or imagined conversation."
+    ],
+    troubleshooting: [
+      "If pronunciation is difficult, record yourself and compare to native speaker.",
+      "If you forget words, use flashcards or a spaced repetition app.",
+      "If app is overwhelming, focus on just 5-10 new words/phrases per day."
+    ]
+  },
+  {
+    id: 276,
+    title: "Cooking: One-Pan Roasted Chicken & Veggies",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Chicken pieces", "Assorted chopped vegetables", "Olive oil", "Seasonings", "Baking sheet"],
+    safetyNotes: "Cook chicken to 165°F (74°C) internal temperature.",
+    steps: [
+      "Preheat oven to 400°F (200°C).",
+      "Toss chicken and chopped vegetables with olive oil and seasonings on a baking sheet.",
+      "Spread in a single layer, ensuring not to overcrowd.",
+      "Roast for 25-35 minutes, flipping halfway, until chicken is cooked and veggies are tender.",
+      "Check chicken temperature with a meat thermometer.",
+      "Serve directly from the pan for easy cleanup."
+    ],
+    troubleshooting: [
+      "If chicken is dry, reduce cooking time slightly.",
+      "If veggies are soggy, ensure they are not overcrowded.",
+      "If bland, add fresh herbs or a squeeze of lemon after roasting."
+    ]
+  },
+  {
+    id: 277,
+    title: "Budgeting: Setting Financial Goals",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Notebook", "Pen", "Calculator"],
+    steps: [
+      "Brainstorm 3-5 short-term (under 1 year) and long-term (over 1 year) financial goals.",
+      "Make each goal SMART (Specific, Measurable, Achievable, Relevant, Time-bound).",
+      "Calculate how much money you need for each goal.",
+      "Determine how much you need to save per week/month to reach each goal.",
+      "Prioritize your goals.",
+      "Write down your goals and review them regularly."
+    ],
+    troubleshooting: [
+      "If goals seem impossible, break them into smaller milestones.",
+      "If you lose motivation, visualize achieving your goals.",
+      "If you can't save enough, look for ways to cut expenses or increase income."
+    ]
+  },
+  {
+    id: 278,
+    title: "Time Management: The Urgent/Important Matrix",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "20 mins",
+    supplies: ["Paper", "Pen", "List of tasks"],
+    steps: [
+      "Draw a 2x2 grid: Urgent/Not Urgent on one axis, Important/Not Important on the other.",
+      "List all your tasks and place them into one of the four quadrants:",
+      "1. Urgent & Important (Do First)",
+      "2. Not Urgent & Important (Schedule)",
+      "3. Urgent & Not Important (Delegate/Minimize)",
+      "4. Not Urgent & Not Important (Eliminate)",
+      "Focus your energy on Quadrant 1 and 2 tasks.",
+      "Regularly review and re-categorize tasks."
+    ],
+    troubleshooting: [
+      "If too many tasks are in Q1, you might be procrastinating.",
+      "If you struggle to categorize, ask 'What are the consequences if I don't do this?'",
+      "If you're constantly interrupted, protect your Q2 time."
+    ]
+  },
+  {
+    id: 279,
+    title: "Public Speaking: Structuring a Short Talk",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Topic", "Notebook", "Pen"],
+    steps: [
+      "Choose a clear main message or idea for your talk.",
+      "Outline your talk with a simple structure: Introduction, 2-3 Main Points, Conclusion.",
+      "In the introduction, grab attention and state your main message.",
+      "For each main point, provide evidence, examples, or stories.",
+      "In the conclusion, summarize your main points and give a call to action or memorable closing.",
+      "Practice delivering your talk, focusing on smooth transitions."
+    ],
+    troubleshooting: [
+      "If talk is too long, cut down on details or examples.",
+      "If audience seems disengaged, add more personal stories or interactive elements.",
+      "If you lose your place, refer to your outline or cue cards."
+    ]
+  },
+  {
+    id: 280,
+    title: "Language Learning: Ordering Food & Drinks",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "40 mins",
+    supplies: ["Language learning app", "Menu (online or real)", "Notebook", "Pen"],
+    steps: [
+      "Learn common phrases for ordering (e.g., 'I would like...', 'Can I have...').",
+      "Learn the names of 5-10 common food and drink items.",
+      "Practice asking for the bill and saying 'thank you'.",
+      "Role-play ordering at a restaurant with a friend or yourself.",
+      "Use a language app to practice listening to ordering scenarios.",
+      "Look up a real menu in your target language and try to order from it."
+    ],
+    troubleshooting: [
+      "If you don't understand the response, ask 'Can you repeat that?' or 'Slower, please.'",
+      "If you forget a word, point or use a translation app (as a last resort).",
+      "If you feel shy, start by practicing with a friendly cashier or server."
+    ]
+  },
+  {
+    id: 281,
+    title: "Cooking: Simple Pasta Sauce from Scratch",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Canned crushed tomatoes", "Garlic", "Onion", "Olive oil", "Herbs (basil, oregano)", "Pot"],
+    steps: [
+      "Mince garlic and chop onion.",
+      "Heat olive oil in a pot over medium heat, sauté onion until soft.",
+      "Add garlic and cook for 1 minute until fragrant.",
+      "Pour in crushed tomatoes and a splash of water/broth.",
+      "Add dried herbs, salt, and pepper. Simmer for 15-20 minutes.",
+      "Taste and adjust seasonings. Serve over cooked pasta."
+    ],
+    troubleshooting: [
+      "If sauce is too acidic, add a pinch of sugar or baking soda.",
+      "If too thin, simmer longer to reduce. If too thick, add more water/broth.",
+      "If bland, add more garlic, herbs, or a pinch of red pepper flakes."
+    ]
+  },
+  {
+    id: 282,
+    title: "Budgeting: Understanding Needs vs. Wants",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "25 mins",
+    supplies: ["Notebook", "Pen", "Recent bank statement"],
+    steps: [
+      "Define 'Needs' (essential for survival/well-being: housing, food, utilities, transport).",
+      "Define 'Wants' (things that improve life but aren't essential: entertainment, dining out, new gadgets).",
+      "Go through your recent bank statement and categorize each expense as a 'Need' or a 'Want'.",
+      "Calculate the total spent on Needs vs. Wants.",
+      "Identify areas where you can reduce 'Wants' to free up money for savings or debt.",
+      "Practice this distinction before making new purchases."
+    ],
+    troubleshooting: [
+      "If an item is hard to categorize, ask 'Could I live without this?'",
+      "If you spend too much on Wants, set a weekly/monthly budget for them.",
+      "If you feel deprived, find free or low-cost alternatives for your Wants."
+    ]
+  },
+  {
+    id: 283,
+    title: "Time Management: Batching Errands",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["To-do list", "Map app (optional)"],
+    steps: [
+      "List all errands you need to run (e.g., grocery store, post office, dry cleaner).",
+      "Group errands by geographical location or route.",
+      "Plan the most efficient route to complete all grouped errands.",
+      "Allocate a specific block of time for running these errands.",
+      "Try to complete all errands in one trip, avoiding multiple small trips.",
+      "Notice the time and fuel saved by batching."
+    ],
+    troubleshooting: [
+      "If you forget an errand, add it to your list immediately for the next batch.",
+      "If a store is out of the way, consider if the item is truly urgent.",
+      "If you get distracted, stick to your planned route and avoid impulse stops."
+    ]
+  },
+  {
+    id: 284,
+    title: "Public Speaking: Using Body Language Effectively",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "40 mins",
+    supplies: ["Mirror or video camera"],
+    steps: [
+      "Practice standing tall with good posture, shoulders back.",
+      "Maintain open body language (avoid crossed arms).",
+      "Use hand gestures naturally to emphasize points, but don't overdo it.",
+      "Practice making eye contact with different points in the room (or your reflection).",
+      "Avoid fidgeting or distracting movements.",
+      "Record yourself and watch back to identify distracting habits and improve."
+    ],
+    troubleshooting: [
+      "If you feel stiff, try walking around a bit before speaking.",
+      "If gestures feel unnatural, start with just a few deliberate ones.",
+      "If you struggle with eye contact, focus on foreheads rather than eyes."
+    ]
+  },
+  {
+    id: 285,
+    title: "Language Learning: Asking & Giving Directions",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "45 mins",
+    supplies: ["Map (real or online)", "Language learning app", "Notebook", "Pen"],
+    steps: [
+      "Learn phrases for asking for directions (e.g., 'How do I get to...?', 'Where is...?').",
+      "Learn directional words (e.g., 'left', 'right', 'straight', 'turn', 'street', 'intersection').",
+      "Practice giving simple directions using a map.",
+      "Role-play asking for and giving directions with a friend.",
+      "Use a language app to practice listening to directional instructions.",
+      "Imagine navigating a foreign city using only your target language."
+    ],
+    troubleshooting: [
+      "If you get lost in the conversation, ask for clarification or repetition.",
+      "If you forget a word, use gestures or point on a map.",
+      "If you feel overwhelmed, focus on just 2-3 key phrases at a time."
+    ]
+  },
+  {
+    id: 286,
+    title: "Cooking: Basic Knife Skills (Chopping Vegetables)",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Sharp chef's knife", "Cutting board", "Vegetables (e.g., carrot, onion)", "Damp cloth"],
+    safetyNotes: "Always use a sharp knife. Keep fingers tucked in a 'claw' grip. Cut away from your body.",
+    steps: [
+      "Place a damp cloth under your cutting board to prevent slipping.",
+      "Learn the 'claw' grip: fingers curled inward, knuckles guiding the blade.",
+      "Practice a basic 'rocking' chop with a carrot, keeping the knife tip on the board.",
+      "Learn how to safely cut an onion (halve, peel, make horizontal and vertical cuts).",
+      "Practice dicing an onion into small, even pieces.",
+      "Always focus on safety and precision over speed."
+    ],
+    troubleshooting: [
+      "If knife slips, ensure your grip is firm and board is stable.",
+      "If cuts are uneven, slow down and focus on consistent movements.",
+      "If fingers feel exposed, ensure your 'claw' grip is tight."
+    ]
+  },
+  {
+    id: 287,
+    title: "Budgeting: Creating a Savings Plan",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Notebook", "Pen", "Calculator", "Bank account info"],
+    steps: [
+      "Identify 1-3 specific savings goals (e.g., new phone, vacation, emergency fund).",
+      "Determine the cost of each goal and a realistic deadline.",
+      "Calculate how much you need to save each month/week for each goal.",
+      "Look for areas in your budget where you can cut back to fund your savings.",
+      "Set up a separate savings account for your goals.",
+      "Automate transfers to your savings account if possible."
+    ],
+    troubleshooting: [
+      "If you can't save enough, adjust your goal amount or timeline.",
+      "If you're tempted to spend savings, make it harder to access (e.g., different bank).",
+      "If automatic transfers fail, set calendar reminders to manually transfer."
+    ]
+  },
+  {
+    id: 288,
+    title: "Time Management: Dealing with Procrastination",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Task list", "Timer"],
+    steps: [
+      "Identify a task you've been procrastinating on.",
+      "Break the task down into the smallest possible first step (e.g., 'open document').",
+      "Use the Pomodoro Technique: set a timer for 25 minutes and commit to working only on that task.",
+      "Eliminate distractions during your work session.",
+      "Reward yourself with a short break after each focused session.",
+      "Reflect on why you procrastinated and what strategies helped."
+    ],
+    troubleshooting: [
+      "If the first step is still too big, break it down further.",
+      "If you get distracted, use website blockers or put your phone away.",
+      "If you still can't start, try the '5-minute rule': commit to just 5 minutes of work."
+    ]
+  },
+  {
+    id: 289,
+    title: "Public Speaking: Engaging Your Audience",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Presentation topic", "Audience (friends/family)"],
+    steps: [
+      "Start with a hook: a question, a surprising fact, or a short story.",
+      "Use varied vocal tone and pace to keep listeners interested.",
+      "Tell personal anecdotes or relatable examples.",
+      "Ask rhetorical questions or direct questions to the audience.",
+      "Incorporate visual aids (if applicable) that support, not distract from, your message.",
+      "Practice reading your audience's body language and adjusting your delivery."
+    ],
+    troubleshooting: [
+      "If audience seems bored, try a quick interactive activity or a change of pace.",
+      "If you struggle to tell stories, practice recounting short personal experiences.",
+      "If you rely too much on notes, practice speaking extemporaneously."
+    ]
+  },
+  {
+    id: 290,
+    title: "Language Learning: Basic Shopping Phrases",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "35 mins",
+    supplies: ["Language learning app", "Shopping list (imaginary)", "Notebook", "Pen"],
+    steps: [
+      "Learn phrases for asking 'How much is this?' and 'I'll take it.'",
+      "Learn numbers 1-100 and common currency terms.",
+      "Practice asking for specific items (e.g., 'Do you have bread?').",
+      "Learn phrases for saying 'yes', 'no', 'please', and 'thank you'.",
+      "Role-play a shopping scenario with a friend.",
+      "Imagine shopping at a market in your target language."
+    ],
+    troubleshooting: [
+      "If you don't understand the price, ask them to write it down.",
+      "If you forget a word, use gestures or point to the item.",
+      "If you feel embarrassed, remember most people appreciate the effort."
+    ]
+  },
+
+  // Tech & Digital Skills (20 new activities)
+  {
+    id: 291,
+    title: "Simple Coding: Introduction to Scratch",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer", "Internet access", "Scratch account (free)"],
+    steps: [
+      "Go to scratch.mit.edu and create a free account.",
+      "Explore the Scratch interface: stage, sprites, blocks palette, scripts area.",
+      "Learn how to move a sprite using 'motion' blocks.",
+      "Add 'event' blocks to make the sprite move when a key is pressed or flag clicked.",
+      "Experiment with 'looks' blocks to change sprite appearance.",
+      "Create a simple animation where a sprite moves and changes costume."
+    ],
+    troubleshooting: [
+      "If sprite doesn't move, check if event block is connected to motion block.",
+      "If code is confusing, watch Scratch tutorials on YouTube.",
+      "If project is too complex, start with just one sprite and one action."
+    ]
+  },
+  {
+    id: 292,
+    title: "Game Building: First Game in Roblox Studio",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "90 mins",
+    supplies: ["Computer", "Roblox Studio (free download)", "Roblox account"],
+    steps: [
+      "Download and install Roblox Studio.",
+      "Open Studio and select a basic template (e.g., 'Baseplate').",
+      "Learn to navigate the 3D workspace (move camera, select objects).",
+      "Add parts (blocks, spheres) to your game and change their size, color, and material.",
+      "Use the 'Anchor' tool to prevent parts from falling.",
+      "Test your game by clicking 'Play' and explore your creation."
+    ],
+    troubleshooting: [
+      "If parts fall, ensure they are 'Anchored'.",
+      "If camera movement is difficult, practice with mouse and keyboard controls.",
+      "If Studio crashes, ensure your computer meets minimum requirements."
+    ]
+  },
+  {
+    id: 293,
+    title: "Social Media: Creating an Instagram Reel",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Smartphone", "Instagram app", "Short video clips/photos"],
+    steps: [
+      "Open Instagram and tap the '+' icon, then select 'Reel'.",
+      "Record short video clips or select from your gallery.",
+      "Use Instagram's editing tools: trim clips, add music, text, and filters.",
+      "Experiment with trending audio or effects.",
+      "Write a catchy caption with relevant hashtags.",
+      "Preview your Reel and share it."
+    ],
+    troubleshooting: [
+      "If Reel is too long, trim clips or reduce number of segments.",
+      "If music is out of sync, adjust timing in the audio editor.",
+      "If engagement is low, try different content styles or post at peak times."
+    ]
+  },
+  {
+    id: 294,
+    title: "Graphic Design: Designing a Simple Logo (Canva)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "75 mins",
+    supplies: ["Computer/Smartphone", "Canva account (free)"],
+    steps: [
+      "Log in to Canva and search for 'Logo' templates.",
+      "Choose a template or start from scratch.",
+      "Select a simple icon or graphic that represents your brand/idea.",
+      "Add text for your brand name, experimenting with fonts and colors.",
+      "Ensure the logo is simple, memorable, and scalable.",
+      "Download your logo in PNG format (with transparent background if available)."
+    ],
+    troubleshooting: [
+      "If logo looks generic, try combining different elements or custom fonts.",
+      "If colors clash, use a color palette generator for inspiration.",
+      "If text is hard to read, simplify the font or increase size."
+    ]
+  },
+  {
+    id: 295,
+    title: "AI Prompting: Generating Creative Images",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Computer/Smartphone", "Internet access", "AI image generator (e.g., Midjourney, DALL-E 3, Stable Diffusion)"],
+    steps: [
+      "Choose an AI image generator (many offer free trials or limited free use).",
+      "Learn the basics of writing effective prompts (e.g., 'a cat wearing a hat').",
+      "Experiment with adding descriptive adjectives (e.g., 'a fluffy cat', 'a whimsical hat').",
+      "Add style modifiers (e.g., 'in the style of Van Gogh', 'photorealistic').",
+      "Generate several images and compare the results.",
+      "Refine your prompts to get closer to your desired image."
+    ],
+    troubleshooting: [
+      "If images are not what you expected, make your prompt more specific.",
+      "If AI struggles with certain concepts, try breaking them down or using synonyms.",
+      "If you run out of free credits, try a different free generator."
+    ]
+  },
+  {
+    id: 296,
+    title: "No-Code Website Building: Basic Landing Page (Carrd)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "90 mins",
+    supplies: ["Computer", "Internet access", "Carrd account (free)"],
+    steps: [
+      "Go to Carrd.co and sign up for a free account.",
+      "Choose a template for a landing page or portfolio.",
+      "Customize text, images, and background colors.",
+      "Add sections like 'About Me', 'Services', 'Contact Form'.",
+      "Ensure your site is responsive (looks good on mobile).",
+      "Publish your site to a free Carrd subdomain."
+    ],
+    troubleshooting: [
+      "If design looks messy, simplify elements and use consistent styling.",
+      "If images don't load, ensure they are correctly uploaded and sized.",
+      "If you can't publish, check for any incomplete sections or errors."
+    ]
+  },
+  {
+    id: 297,
+    title: "Simple Coding: Variables & Loops (Scratch)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "75 mins",
+    supplies: ["Computer", "Internet access", "Scratch account"],
+    steps: [
+      "Open Scratch and start a new project.",
+      "Create a variable (e.g., 'score', 'timer').",
+      "Use 'change variable by' blocks to update its value.",
+      "Introduce 'repeat' or 'forever' loops to automate actions.",
+      "Create a simple game where a sprite collects items and increases score.",
+      "Use loops to make the game run continuously or for a set number of times."
+    ],
+    troubleshooting: [
+      "If variable doesn't update, check if 'change variable' block is in the loop.",
+      "If loop runs infinitely, ensure there's a 'stop' condition or 'wait' block.",
+      "If game is too easy, add more obstacles or a time limit."
+    ]
+  },
+  {
+    id: 298,
+    title: "Game Building: Adding Scripts (Roblox Studio)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "120 mins",
+    supplies: ["Computer", "Roblox Studio"],
+    steps: [
+      "Open your Roblox Studio game.",
+      "Insert a 'Script' into a part or the 'Workspace'.",
+      "Learn basic Lua syntax: `print()`, `local variable = value`.",
+      "Write a script to change a part's color when clicked.",
+      "Write a script to make a part disappear after a few seconds.",
+      "Test your scripts in 'Play' mode and debug any errors."
+    ],
+    troubleshooting: [
+      "If script doesn't run, check for typos or incorrect object references.",
+      "If errors appear, read the output window for clues.",
+      "If you're stuck, search Roblox Developer Hub for examples."
+    ]
+  },
+  {
+    id: 299,
+    title: "Social Media: Designing YouTube Thumbnails (Canva)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer/Smartphone", "Canva account (free)", "Video idea"],
+    steps: [
+      "Log in to Canva and search for 'YouTube Thumbnail' templates.",
+      "Choose a template or start from scratch.",
+      "Add a compelling image or background related to your video.",
+      "Use bold, readable text for your title, keeping it concise.",
+      "Add elements like arrows, circles, or outlines to draw attention.",
+      "Download your thumbnail in JPG or PNG format."
+    ],
+    troubleshooting: [
+      "If thumbnail looks cluttered, simplify text and elements.",
+      "If text is hard to read, use a contrasting background or outline.",
+      "If image is low quality, use a higher resolution image."
+    ]
+  },
+  {
+    id: 300,
+    title: "Graphic Design: Creating a Simple Poster (Canva)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "75 mins",
+    supplies: ["Computer/Smartphone", "Canva account (free)", "Event/message idea"],
+    steps: [
+      "Log in to Canva and search for 'Poster' templates.",
+      "Choose a template or start from scratch.",
+      "Add a main title, subtitle, and key information.",
+      "Select a relevant image or background graphic.",
+      "Experiment with font pairings and color schemes.",
+      "Ensure the poster is visually appealing and easy to read from a distance.",
+      "Download your poster in PDF (print) or PNG (digital) format."
+    ],
+    troubleshooting: [
+      "If poster looks unprofessional, use fewer fonts and a consistent color palette.",
+      "If text is too small, increase font size or reduce content.",
+      "If images are pixelated, use higher resolution images."
+    ]
+  },
+  {
+    id: 301,
+    title: "AI Prompting: Generating Creative Stories",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer/Smartphone", "Internet access", "AI text generator (e.g., ChatGPT, Bard, Claude)"],
+    steps: [
+      "Choose an AI text generator.",
+      "Start with a simple prompt (e.g., 'Write a short story about a magical forest').",
+      "Add details to your prompt: characters, plot points, genre, tone.",
+      "Experiment with different lengths and styles (e.g., 'Write a sci-fi story in 500 words').",
+      "Ask the AI to continue or expand on parts of the story.",
+      "Refine the AI's output by editing and adding your own creative flair."
+    ],
+    troubleshooting: [
+      "If story is generic, make your prompt more specific and unique.",
+      "If AI gets stuck, give it a new direction or a specific plot point.",
+      "If output is too long/short, specify word count or paragraph count."
+    ]
+  },
+  {
+    id: 302,
+    title: "No-Code App Building: Simple Task Manager (Glide)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "120 mins",
+    supplies: ["Computer", "Internet access", "Glide account (free)", "Google Sheet"],
+    steps: [
+      "Create a simple Google Sheet with columns like 'Task Name', 'Due Date', 'Status'.",
+      "Sign up for Glide and connect your Google Sheet as a data source.",
+      "Choose a template or start from scratch.",
+      "Customize the app's layout, colors, and components (e.g., list, detail screen).",
+      "Add features like 'Add Task' and 'Mark Complete'.",
+      "Test your app and share it with a link."
+    ],
+    troubleshooting: [
+      "If data doesn't sync, ensure Google Sheet is correctly formatted and shared.",
+      "If app layout is confusing, simplify components or use a different template.",
+      "If features don't work, check component settings and data connections."
+    ]
+  },
+  {
+    id: 303,
+    title: "Simple Coding: Conditionals (If/Else) in Scratch",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer", "Internet access", "Scratch account"],
+    steps: [
+      "Open Scratch and start a new project.",
+      "Learn about 'if...then' and 'if...then...else' blocks.",
+      "Use 'sensing' blocks (e.g., 'touching color', 'key pressed') as conditions.",
+      "Create a sprite that changes color when it touches another sprite.",
+      "Create a simple game where a character reacts differently based on input.",
+      "Test different conditions to see how your code responds."
+    ],
+    troubleshooting: [
+      "If condition doesn't work, check if sensing block is correctly placed.",
+      "If sprite doesn't react, ensure the condition is met (e.g., actually touching).",
+      "If code is too complex, break it into smaller conditional statements."
+    ]
+  },
+  {
+    id: 304,
+    title: "Game Building: Adding Obstacles (Roblox Studio)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Computer", "Roblox Studio"],
+    steps: [
+      "Open your Roblox Studio game.",
+      "Add various parts (blocks, cylinders) to create obstacles.",
+      "Change their properties (e.g., 'CanCollide' to false for ghost-like objects).",
+      "Write a simple script to make an obstacle move or rotate.",
+      "Write a script to make a player lose health if they touch an obstacle.",
+      "Test your game with the new obstacles and refine their placement."
+    ],
+    troubleshooting: [
+      "If obstacles don't move, check script for errors or correct object references.",
+      "If player doesn't take damage, ensure collision detection is working.",
+      "If game is too hard/easy, adjust obstacle speed, size, or damage."
+    ]
+  },
+  {
+    id: 305,
+    title: "Social Media: Writing Engaging Captions",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Smartphone", "Social media app", "Photo/video to post"],
+    steps: [
+      "Choose a photo or video you want to post.",
+      "Brainstorm keywords and emotions related to your content.",
+      "Write a draft caption, focusing on a clear message.",
+      "Add a hook (question, emoji, bold statement) to grab attention.",
+      "Include a call to action (e.g., 'Comment below!', 'Link in bio').",
+      "Use relevant hashtags to increase visibility (3-5 is often enough)."
+    ],
+    troubleshooting: [
+      "If caption is too long, condense sentences or use bullet points.",
+      "If engagement is low, try different hooks or calls to action.",
+      "If you struggle with hashtags, research popular ones in your niche."
+    ]
+  },
+  {
+    id: 306,
+    title: "Graphic Design: Basic Typography (Canva)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer/Smartphone", "Canva account (free)", "Text-based design idea"],
+    steps: [
+      "Open Canva and start a new design (e.g., 'Document').",
+      "Add a few text boxes with different fonts.",
+      "Learn about font pairings (e.g., a serif for headings, sans-serif for body).",
+      "Experiment with font sizes, colors, and line spacing.",
+      "Understand hierarchy: use larger/bolder fonts for important information.",
+      "Create a simple quote graphic, focusing on readable and appealing typography."
+    ],
+    troubleshooting: [
+      "If text is hard to read, choose simpler fonts or increase contrast.",
+      "If design looks messy, use fewer fonts (2-3 maximum) and align text.",
+      "If fonts don't match, try using fonts from the same family or complementary styles."
+    ]
+  },
+  {
+    id: 307,
+    title: "AI Prompting: Generating Music Ideas",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Computer/Smartphone", "Internet access", "AI music generator (e.g., AIVA, Soundraw, Google Magenta Studio)"],
+    steps: [
+      "Choose an AI music generator (many offer free trials or limited free use).",
+      "Start with a simple prompt (e.g., 'Generate a calm piano melody').",
+      "Add details: genre, mood, instruments, tempo, duration.",
+      "Experiment with different styles (e.g., 'upbeat electronic track for a workout').",
+      "Generate several music pieces and listen to the results.",
+      "Refine your prompts to get closer to your desired sound."
+    ],
+    troubleshooting: [
+      "If music is not what you expected, make your prompt more specific.",
+      "If AI struggles with certain genres, try simpler descriptions.",
+      "If you run out of free credits, try a different free generator."
+    ]
+  },
+  {
+    id: 308,
+    title: "No-Code Automation: Simple Workflow (Zapier/Make)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "120 mins",
+    supplies: ["Computer", "Internet access", "Zapier/Make account (free)", "Two web apps (e.g., Gmail, Google Sheets)"],
+    steps: [
+      "Choose a simple automation idea (e.g., 'Save new Gmail attachments to Google Drive').",
+      "Sign up for Zapier or Make (formerly Integromat).",
+      "Identify the 'Trigger' app and event (e.g., 'New Attachment in Gmail').",
+      "Identify the 'Action' app and event (e.g., 'Upload File to Google Drive').",
+      "Connect your accounts and map the data between the trigger and action.",
+      "Test your automation and turn it on."
+    ],
+    troubleshooting: [
+      "If automation doesn't run, check connection to apps and trigger settings.",
+      "If data isn't transferring correctly, check data mapping.",
+      "If you're stuck, use the platform's help documentation or community forums."
+    ]
+  },
+  {
+    id: 309,
+    title: "Simple Coding: Functions & Procedures (Scratch)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "75 mins",
+    supplies: ["Computer", "Internet access", "Scratch account"],
+    steps: [
+      "Open Scratch and start a new project.",
+      "Learn about 'My Blocks' (custom blocks/functions).",
+      "Create a custom block for a repetitive action (e.g., 'draw square').",
+      "Use input parameters for your custom block (e.g., 'draw square size: (100)').",
+      "Create a more complex drawing or animation using your custom blocks.",
+      "Understand how functions make code more organized and reusable."
+    ],
+    troubleshooting: [
+      "If custom block doesn't work, check the definition of the block.",
+      "If parameters aren't passed correctly, ensure correct input types.",
+      "If code is still long, look for more opportunities to create custom blocks."
+    ]
+  },
+  {
+    id: 310,
+    title: "Game Building: Basic UI Elements (Roblox Studio)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Computer", "Roblox Studio"],
+    steps: [
+      "Open your Roblox Studio game.",
+      "Insert a 'ScreenGui' into 'StarterGui'.",
+      "Add a 'TextLabel' to display information (e.g., 'Score: 0').",
+      "Add a 'TextButton' to create an interactive button.",
+      "Write a script to update the TextLabel when the score changes.",
+      "Write a script to make the TextButton perform an action when clicked."
+    ],
+    troubleshooting: [
+      "If UI doesn't appear, check if ScreenGui is enabled and visible.",
+      "If text/button doesn't update, check script for errors or correct object references.",
+      "If UI is misaligned, use layout properties (e.g., 'AnchorPoint', 'Position', 'Size')."
+    ]
+  },
+
+  // Creative & Expressive (10 more activities)
+  {
+    id: 311,
+    title: "Digital Character Design: Basic Anatomy",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Tablet/Computer", "Stylus", "Digital drawing app", "Anatomy references"],
+    steps: [
+      "Study basic human or animal anatomy (skeletal and muscular forms).",
+      "Practice drawing simple stick figures and then build basic shapes (circles, ovals) for joints and masses.",
+      "Focus on proportions and how different body parts connect.",
+      "Draw characters in simple poses, paying attention to balance and weight.",
+      "Use layers to sketch initial forms and then refine details.",
+      "Experiment with different body types for your characters."
+    ],
+    troubleshooting: [
+      "If anatomy looks stiff, use gesture drawing exercises to capture movement.",
+      "If proportions are off, use reference images and measure carefully.",
+      "If you struggle with a pose, try posing yourself in a mirror."
+    ]
+  },
+  {
+    id: 312,
+    title: "Video Editing: Adding Special Effects (CapCut)",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "75 mins",
+    supplies: ["Smartphone", "CapCut app", "Video clip"],
+    steps: [
+      "Import a video clip into CapCut.",
+      "Explore the 'Effects' tab for video effects (e.g., glitch, blur, retro).",
+      "Apply 2-3 different effects to sections of your video.",
+      "Adjust the intensity and duration of each effect.",
+      "Experiment with 'Body Effects' for character-specific enhancements.",
+      "Preview and export your video."
+    ],
+    troubleshooting: [
+      "If effects look overdone, reduce intensity or use sparingly.",
+      "If app lags, ensure enough storage space or use shorter clips.",
+      "If effects don't apply correctly, ensure clip is selected."
+    ]
+  },
+  {
+    id: 313,
+    title: "Photography: Portrait Lighting with Phone",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Smartphone camera", "Subject (person)", "Window/lamp", "Reflector (white card)"],
+    steps: [
+      "Position your subject near a window for soft, natural light.",
+      "Take photos with the light hitting the subject from the front, side, and slightly behind.",
+      "Use a white card or reflector to bounce light back onto the shadow side of the face.",
+      "Experiment with different angles and distances from the light source.",
+      "Observe how light shapes the face and creates different moods.",
+      "Practice taking portraits in various lighting conditions."
+    ],
+    troubleshooting: [
+      "If shadows are too harsh, move subject further from direct light or use a diffuser.",
+      "If face is underexposed, use a reflector or move closer to light source.",
+      "If background is distracting, use portrait mode for blurred background."
+    ]
+  },
+  {
+    id: 314,
+    title: "Music Production: Basic Melody Writing (GarageBand)",
+    category: "Creative",
+    difficulty: "Beginner",
+    time: "75 mins",
+    supplies: ["iPhone/iPad/Mac", "GarageBand app", "Headphones"],
+    steps: [
+      "Open GarageBand and start a new song with a drum beat (from Activity 262).",
+      "Add a new 'Keyboard' or 'Smart Strings' track.",
+      "Experiment with different instrument sounds.",
+      "Play simple notes and try to create a short, memorable melody.",
+      "Focus on repetition and variation within your melody.",
+      "Record your melody over the drum beat and listen to how they fit together."
+    ],
+    troubleshooting: [
+      "If melody sounds off-key, stick to notes within a simple scale (e.g., C major).",
+      "If melody is too complex, simplify it to fewer notes.",
+      "If you get stuck, try humming a tune first and then finding the notes."
+    ]
+  },
+  {
+    id: 315,
+    title: "Creative Writing: Show, Don't Tell",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Notebook", "Pen", "Short descriptive sentences"],
+    steps: [
+      "Understand 'Show, Don't Tell': instead of stating emotions/facts, describe actions, dialogue, and sensory details.",
+      "Take a 'telling' sentence (e.g., 'She was angry').",
+      "Brainstorm ways to 'show' that emotion (e.g., 'Her jaw tightened, and her eyes narrowed to slits.').",
+      "Practice converting 5-10 'telling' sentences into 'showing' paragraphs.",
+      "Focus on engaging the reader's senses and imagination.",
+      "Read your 'showing' descriptions aloud to feel their impact."
+    ],
+    troubleshooting: [
+      "If descriptions are too long, condense them to the most impactful details.",
+      "If you still 'tell', identify the abstract word and brainstorm concrete actions.",
+      "If you struggle, read examples from your favorite authors."
+    ]
+  },
+  {
+    id: 316,
+    title: "Spoken Word Poetry: Performance Basics",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Your written poem", "Voice recorder (phone)", "Mirror"],
+    steps: [
+      "Memorize or internalize your poem so you can deliver it without reading.",
+      "Practice vocal variety: changing pitch, volume, and pace.",
+      "Experiment with pauses for dramatic effect or emphasis.",
+      "Use natural hand gestures and facial expressions to convey emotion.",
+      "Practice in front of a mirror, focusing on confidence and connection.",
+      "Record yourself performing the entire poem and critically review it."
+    ],
+    troubleshooting: [
+      "If you forget lines, practice in smaller sections or use cue words.",
+      "If performance feels stiff, focus on the emotion of the words.",
+      "If voice is monotone, consciously vary pitch and volume."
+    ]
+  },
+  {
+    id: 317,
+    title: "Digital Art: Basic Character Posing",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "75 mins",
+    supplies: ["Tablet/Computer", "Stylus", "Digital drawing app", "Pose references (photos, 3D models)"],
+    steps: [
+      "Study dynamic poses from photos or 3D pose apps.",
+      "Start with a simple 'line of action' to capture the flow of the pose.",
+      "Build up the pose using basic shapes for the head, torso, and limbs.",
+      "Pay attention to weight distribution and balance.",
+      "Draw characters in action poses (running, jumping, sitting).",
+      "Use layers to sketch initial ideas and then refine the pose."
+    ],
+    troubleshooting: [
+      "If poses look stiff, exaggerate the line of action and curves.",
+      "If proportions are off, use reference images and measure carefully.",
+      "If you struggle with perspective, simplify the pose to 2D first."
+    ]
+  },
+  {
+    id: 318,
+    title: "Video Editing: Color Grading Basics (CapCut)",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Smartphone", "CapCut app", "Video clip"],
+    steps: [
+      "Import a video clip into CapCut.",
+      "Tap on the clip and go to the 'Adjust' or 'Filters' section.",
+      "Experiment with basic adjustments: Brightness, Contrast, Saturation, Sharpen.",
+      "Apply different filters to see how they change the mood of the video.",
+      "Learn about color temperature (warm vs. cool) and tint.",
+      "Adjust colors to create a consistent look across multiple clips."
+    ],
+    troubleshooting: [
+      "If colors look unnatural, use subtle adjustments rather than extreme changes.",
+      "If video is too dark/bright, adjust exposure and contrast first.",
+      "If app lags, ensure enough storage space or use shorter clips."
+    ]
+  },
+  {
+    id: 319,
+    title: "Photography: Macro Photography with Phone",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Smartphone camera", "Small objects (flowers, insects, textures)", "Good lighting"],
+    steps: [
+      "Find small objects with interesting details or textures.",
+      "Get as close as your phone camera allows while maintaining focus.",
+      "Use good, diffused lighting (e.g., soft window light, overcast day).",
+      "Experiment with different angles and compositions.",
+      "Tap on the screen to focus precisely on the smallest details.",
+      "Take multiple shots and review them for sharpness and detail."
+    ],
+    troubleshooting: [
+      "If photos are blurry, ensure steady hand or use a tripod/stand.",
+      "If focus is difficult, try moving phone slightly back and forth.",
+      "If lighting is too harsh, use a diffuser (e.g., white paper) to soften it."
+    ]
+  },
+  {
+    id: 320,
+    title: "Music Production: Arranging a Simple Song (GarageBand)",
+    category: "Creative",
+    difficulty: "Intermediate",
+    time: "120 mins",
+    supplies: ["iPhone/iPad/Mac", "GarageBand app", "Headphones", "Drum beat, melody, bassline"],
+    steps: [
+      "Create a drum beat, a simple melody, and a bassline (from previous activities).",
+      "Arrange these elements into a basic song structure (e.g., Intro, Verse, Chorus, Outro).",
+      "Use copy/paste to duplicate sections.",
+      "Experiment with muting/unmuting tracks to create dynamics.",
+      "Add a simple transition (e.g., drum fill) between sections.",
+      "Listen to your full arrangement and make adjustments."
+    ],
+    troubleshooting: [
+      "If song feels repetitive, add variations to melodies or drum patterns.",
+      "If sections don't flow, adjust timing or add short transitions.",
+      "If mix sounds unbalanced, adjust individual track volumes and pan."
+    ]
+  },
+
+  // Smart & Practical (10 more activities)
+  {
+    id: 321,
+    title: "Cooking: Basic Meal Planning for a Week",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Notebook/planner", "Pen", "Recipe ideas", "Grocery store flyer"],
+    steps: [
+      "Review your schedule for the upcoming week to identify busy days.",
+      "Plan 3-5 dinner meals, considering leftovers for lunches.",
+      "Include breakfast and snack ideas.",
+      "Create a grocery list based on your meal plan, checking for sales.",
+      "Consider theme nights (e.g., Meatless Monday, Taco Tuesday) for variety.",
+      "Prep some ingredients on a designated day to save time during the week."
+    ],
+    troubleshooting: [
+      "If you get bored, try one new recipe each week.",
+      "If food spoils, plan smaller portions or freeze ingredients.",
+      "If budget is tight, focus on seasonal produce and cheaper protein sources."
+    ]
+  },
+  {
+    id: 322,
+    title: "Budgeting: Understanding Credit vs. Debit Cards",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Sample credit/debit cards (or images)", "Internet access"],
+    steps: [
+      "Learn the fundamental difference: debit uses your own money, credit uses borrowed money.",
+      "Understand the benefits of debit: no debt, direct access to funds.",
+      "Understand the benefits of credit: building credit history, rewards, fraud protection.",
+      "Learn the risks of credit: interest charges, debt accumulation, impact on credit score.",
+      "Discuss when it's appropriate to use each type of card.",
+      "Research how to use a credit card responsibly (pay in full, on time)."
+    ],
+    troubleshooting: [
+      "If terms are confusing, look up definitions online or ask a trusted adult.",
+      "If you're worried about credit card debt, start with a secured credit card.",
+      "If you struggle with spending, use cash or debit for daily purchases."
+    ]
+  },
+  {
+    id: 323,
+    title: "Time Management: Setting SMART Goals for Study",
+    category: "Time Management",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Notebook", "Pen", "Study materials"],
+    steps: [
+      "Choose a specific academic goal (e.g., 'Improve my math grade').",
+      "Make it **S**pecific: 'Achieve an A on the next math test.'",
+      "Make it **M**easurable: 'By scoring 90% or higher.'",
+      "Make it **A**chievable: 'By studying 1 hour daily and reviewing notes.'",
+      "Make it **R**elevant: 'To get into my desired college program.'",
+      "Make it **T**ime-bound: 'By the test date on [Date].'",
+      "Write down your SMART study goal and break it into daily actions."
+    ],
+    troubleshooting: [
+      "If goal is too ambitious, adjust the 'Achievable' aspect.",
+      "If you lose motivation, remind yourself of the 'Relevant' aspect.",
+      "If you miss deadlines, re-evaluate your daily actions."
+    ]
+  },
+  {
+    id: 324,
+    title: "Public Speaking: Using Visual Aids Effectively",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Presentation topic", "Slideshow software (PowerPoint, Google Slides)"],
+    steps: [
+      "Choose a visual aid that enhances, not replaces, your message (e.g., images, charts, short video clips).",
+      "Keep slides simple and uncluttered (minimal text, high-quality images).",
+      "Practice looking at your audience, not the screen.",
+      "Use the visual aid as a prompt for yourself, not a script.",
+      "Ensure text is large enough to read from the back of the room.",
+      "Practice integrating your visual aid smoothly into your talk."
+    ],
+    troubleshooting: [
+      "If slides are too busy, simplify content or use fewer slides.",
+      "If you forget to advance slides, practice transitions more.",
+      "If technology fails, be prepared to deliver your talk without visuals."
+    ]
+  },
+  {
+    id: 325,
+    title: "Language Learning: Discussing Hobbies & Interests",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "45 mins",
+    supplies: ["Language learning app", "Notebook", "Pen", "List of your hobbies"],
+    steps: [
+      "Learn vocabulary for 5-10 of your favorite hobbies and interests.",
+      "Learn phrases for asking about someone else's hobbies (e.g., 'What do you like to do?').",
+      "Practice describing your hobbies in simple sentences.",
+      "Role-play a conversation about hobbies with a friend.",
+      "Use a language app to find short texts or audio about hobbies.",
+      "Try to find a native speaker to practice discussing hobbies with."
+    ],
+    troubleshooting: [
+      "If you struggle with specific vocabulary, use a dictionary or translation app.",
+      "If conversation stalls, ask follow-up questions about their hobbies.",
+      "If you feel shy, prepare a few sentences in advance."
+    ]
+  },
+  {
+    id: 326,
+    title: "Cooking: Making a Simple Stir-Fry Sauce",
+    category: "Cooking",
+    difficulty: "Beginner",
+    time: "10 mins",
+    supplies: ["Soy sauce", "Sesame oil", "Ginger", "Garlic", "Cornstarch", "Water/broth", "Small bowl", "Whisk"],
+    steps: [
+      "Mince fresh ginger and garlic (or use powder).",
+      "In a small bowl, whisk together soy sauce, sesame oil, minced ginger, and garlic.",
+      "In a separate tiny bowl, mix cornstarch with a tablespoon of cold water/broth to create a slurry.",
+      "Add the cornstarch slurry to the sauce mixture and whisk until smooth.",
+      "Taste and adjust seasonings (e.g., add a pinch of sugar for sweetness).",
+      "Use this sauce for stir-fries, noodles, or as a marinade."
+    ],
+    troubleshooting: [
+      "If sauce is too thick, add more water/broth.",
+      "If too thin, add a little more cornstarch slurry (ensure no lumps).",
+      "If bland, add a dash of chili garlic sauce or a squeeze of lime."
+    ]
+  },
+  {
+    id: 327,
+    title: "Budgeting: Understanding Income & Expenses",
+    category: "Budgeting",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Pay stubs", "Bank statements", "Notebook", "Pen"],
+    steps: [
+      "List all sources of income (e.g., allowance, job, gifts).",
+      "Calculate your total monthly income.",
+      "List all your regular expenses (e.g., phone bill, subscriptions, transport, food).",
+      "Categorize expenses as fixed (same every month) or variable (changes).",
+      "Calculate your total monthly expenses.",
+      "Compare your total income to total expenses to see your financial standing."
+    ],
+    troubleshooting: [
+      "If income is less than expenses, identify areas to cut back or earn more.",
+      "If you forget expenses, review bank statements regularly.",
+      "If categories are confusing, simplify them or use a budgeting app."
+    ]
+  },
+  {
+    id: 328,
+    title: "Time Management: The Eisenhower Matrix (Advanced)",
+    category: "Time Management",
+    difficulty: "Intermediate",
+    time: "30 mins",
+    supplies: ["Digital task manager (Trello, Asana) or large whiteboard"],
+    steps: [
+      "Review your current tasks and projects.",
+      "Assign each task to one of the four quadrants: Do, Decide, Delegate, Delete.",
+      "For 'Do' tasks, schedule them immediately.",
+      "For 'Decide' tasks, plan when you will work on them.",
+      "For 'Delegate' tasks, identify who can help and assign them.",
+      "For 'Delete' tasks, remove them from your list entirely."
+    ],
+    troubleshooting: [
+      "If too many tasks are in 'Do', you might be overcommitting.",
+      "If you struggle to delegate, practice asking for help.",
+      "If you're hesitant to 'Delete', ask if the task truly aligns with your goals."
+    ]
+  },
+  {
+    id: 329,
+    title: "Public Speaking: Handling Q&A Sessions",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "45 mins",
+    supplies: ["Presentation topic", "Friends/family to ask questions"],
+    steps: [
+      "Prepare for common questions related to your topic.",
+      "Listen carefully to the entire question before answering.",
+      "Repeat or rephrase the question to ensure clarity for everyone.",
+      "Keep answers concise and to the point.",
+      "If you don't know the answer, be honest and offer to follow up.",
+      "Practice with friends asking challenging questions."
+    ],
+    troubleshooting: [
+      "If you get flustered, take a deep breath and a moment to think.",
+      "If a question is hostile, reframe it neutrally or defer it.",
+      "If you run out of time, offer to answer remaining questions offline."
+    ]
+  },
+  {
+    id: 330,
+    title: "Language Learning: Describing People & Places",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "50 mins",
+    supplies: ["Language learning app", "Photos of people/places", "Notebook", "Pen"],
+    steps: [
+      "Learn vocabulary for physical appearance (e.g., tall, short, hair color, eye color).",
+      "Learn vocabulary for personality traits (e.g., kind, funny, shy).",
+      "Learn adjectives for describing places (e.g., big, small, beautiful, crowded).",
+      "Practice describing people and places in photos.",
+      "Role-play describing a friend or your hometown.",
+      "Use a language app to find descriptions and practice listening."
+    ],
+    troubleshooting: [
+      "If you struggle with adjectives, focus on the most common ones first.",
+      "If descriptions are too simple, try adding more detail and sensory words.",
+      "If you feel shy, practice describing fictional characters first."
+    ]
+  },
+
+  // Tech & Digital Skills (10 more activities)
+  {
+    id: 331,
+    title: "Simple Coding: Creating a Clicker Game (Scratch)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "90 mins",
+    supplies: ["Computer", "Internet access", "Scratch account"],
+    steps: [
+      "Open Scratch and choose a sprite (e.g., a cookie, a monster).",
+      "Create a 'score' variable.",
+      "Add an 'event' block: 'when this sprite clicked'.",
+      "Add a 'change score by 1' block.",
+      "Add a 'broadcast' message when score reaches a certain number (e.g., 'level up').",
+      "Create a new sprite that appears or changes when 'level up' is received."
+    ],
+    troubleshooting: [
+      "If score doesn't update, check if 'change score' block is connected.",
+      "If broadcast doesn't work, ensure message name matches exactly.",
+      "If game is too simple, add more sprites, sounds, or animations."
+    ]
+  },
+  {
+    id: 332,
+    title: "Game Building: Adding Player Movement (Roblox Studio)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "120 mins",
+    supplies: ["Computer", "Roblox Studio"],
+    steps: [
+      "Open your Roblox Studio game.",
+      "Understand the default player controls (WASD, Spacebar).",
+      "Write a script to change player speed or jump height.",
+      "Write a script to teleport the player to a new location when they touch a part.",
+      "Experiment with different movement mechanics.",
+      "Test your game and refine player movement for a smooth experience."
+    ],
+    troubleshooting: [
+      "If script doesn't work, check for typos or incorrect object references.",
+      "If player movement is glitchy, check for conflicting scripts.",
+      "If you're stuck, search Roblox Developer Hub for player movement scripts."
+    ]
+  },
+  {
+    id: 333,
+    title: "Social Media: Creating Engaging Stories (Instagram/Snapchat)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Smartphone", "Instagram/Snapchat app", "Photos/videos"],
+    steps: [
+      "Open Instagram/Snapchat and create a new story.",
+      "Take a photo or video, or select from your gallery.",
+      "Add interactive elements: polls, quizzes, questions, stickers.",
+      "Use text, drawings, and filters to enhance your story.",
+      "Experiment with different story formats (e.g., Boomerang, Superzoom).",
+      "Share your story and observe engagement."
+    ],
+    troubleshooting: [
+      "If story is too long, break it into multiple shorter segments.",
+      "If engagement is low, try more interactive elements or trending filters.",
+      "If app lags, ensure enough storage space on your phone."
+    ]
+  },
+  {
+    id: 334,
+    title: "Graphic Design: Creating Merch Designs (Canva)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Computer/Smartphone", "Canva account (free)", "Merch idea (t-shirt, mug)"],
+    steps: [
+      "Log in to Canva and search for 'T-Shirt' or 'Mug' design templates.",
+      "Choose a template or start from scratch.",
+      "Design a graphic or text-based design that would look good on merchandise.",
+      "Consider the target audience and brand aesthetic.",
+      "Ensure the design is simple, clear, and visually appealing.",
+      "Download your design in a high-resolution PNG with a transparent background."
+    ],
+    troubleshooting: [
+      "If design looks cluttered, simplify elements and text.",
+      "If colors don't pop, use contrasting colors or a bolder palette.",
+      "If design is too complex for printing, simplify lines and shapes."
+    ]
+  },
+  {
+    id: 335,
+    title: "AI Prompting: Generating Music Lyrics",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer/Smartphone", "Internet access", "AI text generator (e.g., ChatGPT, Bard, Claude)", "Song idea"],
+    steps: [
+      "Choose an AI text generator.",
+      "Start with a simple prompt (e.g., 'Write lyrics for a pop song about summer love').",
+      "Add details: genre, mood, theme, specific imagery, rhyme scheme (optional).",
+      "Ask the AI to generate verses, choruses, and bridges.",
+      "Experiment with different lyrical styles and structures.",
+      "Refine the AI's output by editing, adding your own lines, and ensuring flow."
+    ],
+    troubleshooting: [
+      "If lyrics are generic, make your prompt more specific and emotional.",
+      "If AI struggles with rhyme/meter, simplify the request or provide examples.",
+      "If output is too long/short, specify line count or section length."
+    ]
+  },
+  {
+    id: 336,
+    title: "No-Code Website Building: Adding Forms (Webflow/Softr)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "120 mins",
+    supplies: ["Computer", "Internet access", "Webflow/Softr account (free)", "Email/CRM service"],
+    steps: [
+      "Open your no-code website builder (e.g., Webflow, Softr).",
+      "Add a new 'Form' element to your page.",
+      "Customize form fields (e.g., Name, Email, Message).",
+      "Configure form submission settings (e.g., send to email, connect to CRM).",
+      "Design the form's appearance to match your website's style.",
+      "Test the form submission to ensure it works correctly."
+    ],
+    troubleshooting: [
+      "If form doesn't submit, check integration settings with email/CRM.",
+      "If form looks bad, adjust styling and layout properties.",
+      "If you're stuck, consult the platform's documentation or tutorials."
+    ]
+  },
+  {
+    id: 337,
+    title: "Simple Coding: Debugging Basics (Scratch)",
+    category: "Tech & Digital Skills",
+    difficulty: "Beginner",
+    time: "60 mins",
+    supplies: ["Computer", "Internet access", "Scratch account", "A buggy Scratch project"],
+    steps: [
+      "Open a Scratch project that isn't working as expected.",
+      "Understand common bugs: sprite not moving, wrong costume, score not updating.",
+      "Use the 'step-by-step' mode to watch your code execute slowly.",
+      "Check variable values as the code runs.",
+      "Isolate the problem: remove blocks one by one to find the culprit.",
+      "Fix the bug and test your project thoroughly."
+    ],
+    troubleshooting: [
+      "If bug is hard to find, break down the problem into smaller parts.",
+      "If you can't fix it, ask a friend or look for similar problems online.",
+      "If project is too complex, start with a simpler project to practice debugging."
+    ]
+  },
+  {
+    id: 338,
+    title: "Game Building: Creating a Leaderboard (Roblox Studio)",
+    category: "Tech & Digital Skills",
+    difficulty: "Advanced",
+    time: "150 mins",
+    supplies: ["Computer", "Roblox Studio"],
+    steps: [
+      "Open your Roblox Studio game.",
+      "Learn about 'DataStoreService' for saving player data.",
+      "Write a server script to create a 'leaderstats' folder for each player.",
+      "Add a 'score' value to leaderstats.",
+      "Write a script to update the score when a player achieves something.",
+      "Test your leaderboard in-game and ensure scores save and load correctly."
+    ],
+    troubleshooting: [
+      "If leaderboard doesn't appear, check script placement and naming conventions.",
+      "If scores don't save, check DataStoreService permissions and usage.",
+      "If you're stuck, search Roblox Developer Hub for leaderboard tutorials."
+    ]
+  },
+  {
+    id: 339,
+    title: "Social Media: Creating Engaging Carousels (Instagram)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "75 mins",
+    supplies: ["Smartphone", "Instagram app", "5-10 related photos/graphics"],
+    steps: [
+      "Choose a topic that can be broken down into multiple slides (e.g., '5 Tips for X').",
+      "Design each slide (photo/graphic + text) to be visually appealing and informative.",
+      "Ensure a consistent visual style across all slides.",
+      "Write a compelling caption that encourages swiping and engagement.",
+      "Use the first slide as a strong hook.",
+      "Preview your carousel and share it."
+    ],
+    troubleshooting: [
+      "If carousel is too long, condense content or use fewer slides.",
+      "If engagement is low, try different topics or visual styles.",
+      "If images are low quality, use higher resolution images."
+    ]
+  },
+  {
+    id: 340,
+    title: "Graphic Design: Creating Infographics (Canva)",
+    category: "Tech & Digital Skills",
+    difficulty: "Intermediate",
+    time: "120 mins",
+    supplies: ["Computer/Smartphone", "Canva account (free)", "Data/information to visualize"],
+    steps: [
+      "Log in to Canva and search for 'Infographic' templates.",
+      "Choose a template that suits your data type (e.g., timeline, comparison).",
+      "Input your data and key information.",
+      "Use icons, charts, and graphs to visualize data effectively.",
+      "Ensure a clear flow of information and easy readability.",
+      "Download your infographic in PDF (print) or PNG (digital) format."
+    ],
+    troubleshooting: [
+      "If infographic is cluttered, simplify data or use more white space.",
+      "If data is hard to understand, use simpler charts or clearer labels.",
+      "If colors clash, use a consistent brand palette."
+    ]
+  },
+
+  // Future Ready Skills (10 more activities)
+  {
+    id: 341,
+    title: "Critical Thinking: Identifying Fake News",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Internet access", "News articles (real and fake examples)"],
+    steps: [
+      "Learn to check the source: is it a reputable news organization or an unknown site?",
+      "Look beyond the headline: read the full article.",
+      "Check the author: are they credible? Is it a real person?",
+      "Examine the evidence: are facts cited? Are there links to original sources?",
+      "Look for bias: does the article present only one side of an issue?",
+      "Cross-reference with other reputable news sources."
+    ],
+    troubleshooting: [
+      "If a source seems legitimate but is actually biased, look for its 'About Us' page.",
+      "If you can't find other sources, be skeptical.",
+      "If an article evokes strong emotions, pause and verify before sharing."
+    ]
+  },
+  {
+    id: 342,
+    title: "Problem-Solving: The 5 Whys Technique",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Problem statement", "Notebook", "Pen"],
+    steps: [
+      "State the problem clearly (e.g., 'I'm always late for school').",
+      "Ask 'Why?' the problem occurs (e.g., 'Why am I always late? Because I oversleep.').",
+      "Ask 'Why?' again for the previous answer (e.g., 'Why do I oversleep? Because I stay up late.').",
+      "Continue asking 'Why?' 3-5 times until you reach a root cause.",
+      "Once you identify the root cause, brainstorm solutions for that cause.",
+      "Implement a solution and observe if the original problem is resolved."
+    ],
+    troubleshooting: [
+      "If you get stuck on a 'Why?', try a different angle or rephrase the question.",
+      "If you identify multiple root causes, address the most impactful one first.",
+      "If a solution doesn't work, revisit your 5 Whys and try another root cause."
+    ]
+  },
+  {
+    id: 343,
+    title: "Financial Literacy: Understanding Compound Interest",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Calculator", "Internet access (for compound interest calculators)"],
+    steps: [
+      "Learn the definition of simple interest vs. compound interest.",
+      "Understand how compound interest means earning interest on your interest.",
+      "Use an online compound interest calculator to see how small, regular savings grow over time.",
+      "Experiment with different initial amounts, interest rates, and timeframes.",
+      "Discuss the 'power of compounding' for long-term savings and investments.",
+      "Identify ways to start saving early to maximize compound interest."
+    ],
+    troubleshooting: [
+      "If calculations are confusing, use simpler numbers or a different calculator.",
+      "If results seem too good to be true, ensure you're using realistic interest rates.",
+      "If you're not saving, start with even a small amount to build the habit."
+    ]
+  },
+  {
+    id: 344,
+    title: "Networking: Informational Interviews",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "90 mins",
+    supplies: ["Internet access (LinkedIn, school alumni)", "Notebook", "Pen"],
+    steps: [
+      "Identify a career field or role you're interested in.",
+      "Find someone working in that field (e.g., through LinkedIn, school network).",
+      "Craft a polite email or message requesting a brief informational interview.",
+      "Prepare 5-7 open-ended questions about their career path, daily work, and advice.",
+      "Conduct the interview, listening actively and taking notes.",
+      "Send a thank-you note and maintain the connection."
+    ],
+    troubleshooting: [
+      "If you don't get a response, try a different person or refine your message.",
+      "If you get nervous, remember it's a conversation, not a job interview.",
+      "If you run out of questions, ask 'Is there anything else I should know?'"
+    ]
+  },
+  {
+    id: 345,
+    title: "Time Management: Digital Calendar Mastery",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Digital calendar (Google Calendar, Outlook Calendar)", "Smartphone/Computer"],
+    steps: [
+      "Choose one digital calendar and sync it across all your devices.",
+      "Create multiple calendars for different areas of your life (e.g., 'Work', 'Personal', 'Study').",
+      "Use color-coding to quickly distinguish event types.",
+      "Set up recurring events for regular commitments.",
+      "Utilize reminders and notifications effectively.",
+      "Practice scheduling tasks and appointments, including travel time."
+    ],
+    troubleshooting: [
+      "If events don't sync, check account settings and internet connection.",
+      "If notifications are overwhelming, adjust frequency or type.",
+      "If you still miss events, try adding a 'buffer' time before each one."
+    ]
+  },
+  {
+    id: 346,
+    title: "Learning Software: Mastering Keyboard Shortcuts",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "30 mins",
+    supplies: ["Computer", "Any software you use regularly (e.g., web browser, word processor)"],
+    steps: [
+      "Identify 3-5 common actions you perform in a software (e.g., copy, paste, save, new tab).",
+      "Look up the keyboard shortcuts for these actions.",
+      "Practice using these shortcuts exclusively for one day.",
+      "Add 2-3 new shortcuts each week.",
+      "Create a cheat sheet of your most used shortcuts.",
+      "Notice the increase in speed and efficiency."
+    ],
+    troubleshooting: [
+      "If you forget a shortcut, refer to your cheat sheet or the software's menu.",
+      "If a shortcut doesn't work, check for conflicts with other software.",
+      "If your hands get tired, take short breaks and stretch."
+    ]
+  },
+  {
+    id: 347,
+    title: "Understanding Contracts: Rental Agreements",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Sample rental agreement (online)", "Notebook", "Pen"],
+    safetyNotes: "This activity provides general knowledge. For legal advice, consult a qualified professional.",
+    steps: [
+      "Obtain a sample rental agreement (e.g., from a local housing authority website).",
+      "Identify key sections: parties, property address, lease term, rent amount, security deposit.",
+      "Understand clauses related to maintenance, repairs, pets, and guests.",
+      "Look for terms about early termination, renewals, and notice periods.",
+      "Discuss potential 'red flags' or clauses that might be unfavorable.",
+      "Practice identifying your rights and responsibilities as a tenant."
+    ],
+    troubleshooting: [
+      "If legal jargon is confusing, look up terms or ask for simpler explanations.",
+      "If a clause seems unfair, research local tenant laws.",
+      "If you feel pressured to sign, take time to review it thoroughly and seek advice."
+    ]
+  },
+  {
+    id: 348,
+    title: "Negotiation: Win-Win Strategies",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "45 mins",
+    supplies: ["Scenario for negotiation (e.g., group project roles, buying a used item)", "Notebook", "Pen"],
+    steps: [
+      "Define your interests and the other party's interests (what do you both truly want?).",
+      "Brainstorm multiple options that could satisfy both parties' interests.",
+      "Focus on objective criteria, not personal attacks.",
+      "Practice active listening to understand their perspective and needs.",
+      "Be prepared to walk away if no mutually beneficial agreement is possible.",
+      "Role-play a negotiation scenario, aiming for a win-win outcome."
+    ],
+    troubleshooting: [
+      "If negotiation becomes adversarial, redirect to shared interests.",
+      "If you feel pressured, take a break to re-evaluate your position.",
+      "If you can't find common ground, explore creative solutions or compromises."
+    ]
+  },
+  {
+    id: 349,
+    title: "Personal Branding: Crafting Your Elevator Pitch",
+    category: "Future Ready",
+    difficulty: "Beginner",
+    time: "45 mins",
+    supplies: ["Notebook", "Pen", "Timer"],
+    steps: [
+      "Identify your core skills, passions, and what makes you unique.",
+      "Think about who your audience is (e.g., potential employer, new acquaintance).",
+      "Write a concise statement (30-60 seconds) that introduces you and your value.",
+      "Include: Who you are, what you do, and what you're looking for/passionate about.",
+      "Practice delivering your pitch aloud, focusing on clarity and confidence.",
+      "Refine your pitch based on feedback and different audiences."
+    ],
+    troubleshooting: [
+      "If pitch is too long, cut out unnecessary words or details.",
+      "If it sounds robotic, practice with more natural language and enthusiasm.",
+      "If you struggle to define your value, ask friends/mentors for their perspective."
+    ]
+  },
+  {
+    id: 350,
+    title: "Introduction to AI Ethics",
+    category: "Future Ready",
+    difficulty: "Intermediate",
+    time: "60 mins",
+    supplies: ["Internet access", "News articles about AI", "Notebook", "Pen"],
+    steps: [
+      "Research key ethical concerns in AI (e.g., bias, privacy, job displacement, accountability).",
+      "Read news articles or case studies illustrating these ethical dilemmas.",
+      "Discuss potential societal impacts of AI, both positive and negative.",
+      "Consider how AI systems can be designed and used responsibly.",
+      "Formulate your own opinions on specific AI ethical challenges.",
+      "Follow organizations and experts who focus on AI ethics."
+    ],
+    troubleshooting: [
+      "If concepts are abstract, look for real-world examples.",
+      "If discussions become heated, focus on understanding different perspectives.",
+      "If you feel overwhelmed, focus on one ethical concern at a time."
     ]
   }
 ];

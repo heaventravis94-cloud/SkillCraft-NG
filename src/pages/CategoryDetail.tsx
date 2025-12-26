@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket } from "lucide-react";
+import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket, Laptop } from "lucide-react"; // Added Laptop icon
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
 import { Input } from "@/components/ui/input";
@@ -78,6 +78,11 @@ const CategoryDetail = () => {
       title: "Future Ready Skills",
       icon: <Rocket className="h-6 w-6" />,
       color: "bg-indigo-100 text-indigo-600"
+    },
+    "tech-digital-skills": { // New Category Info
+      title: "Tech & Digital Skills",
+      icon: <Laptop className="h-6 w-6" />,
+      color: "bg-gray-100 text-gray-600"
     }
   };
 
@@ -94,7 +99,8 @@ const CategoryDetail = () => {
     "diy": "DIY",
     "creative": "Creative",
     "sustainability": "Sustainability",
-    "future-ready": "Future Ready"
+    "future-ready": "Future Ready",
+    "tech-digital-skills": "Tech & Digital Skills" // New Category Map
   };
 
   const categoryTitle = categoryInfo[id || ""]?.title || "Category";

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { Search, BookOpen, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Home, Scissors, Zap, Palette, Sprout, Rocket } from "lucide-react";
+import { Search, BookOpen, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Home, Scissors, Zap, Palette, Sprout, Rocket, Laptop } from "lucide-react"; // Added Laptop icon
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
 
@@ -101,6 +101,13 @@ const SkillLibrary = () => {
       icon: <Rocket className="h-6 w-6" />, // Changed icon
       count: getCategoryCount("Future Ready"),
       color: "bg-indigo-100 text-indigo-600"
+    },
+    { // New Category
+      id: "tech-digital-skills",
+      title: "Tech & Digital Skills",
+      icon: <Laptop className="h-6 w-6" />,
+      count: getCategoryCount("Tech & Digital Skills"),
+      color: "bg-gray-100 text-gray-600"
     }
   ];
 
