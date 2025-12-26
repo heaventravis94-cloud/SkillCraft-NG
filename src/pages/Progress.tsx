@@ -7,8 +7,12 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { TrendingUp, BookOpen, CheckCircle, Clock } from "lucide-react";
 import { activities } from "@/data/activities"; // Import activities data
+import { clearAppData } from "@/lib/utils"; // Import the new utility function
+import { useFavorites } from "@/contexts/FavoritesContext"; // Import useFavorites to trigger re-render
 
 const ProgressOverview = () => {
+  const { toggleFavorite } = useFavorites(); // Use useFavorites to trigger re-render after clearing
+
   const [stats] = useState({
     totalActivities: activities.length, // Dynamically get total activities
     completedActivities: 12, // Mock data for now
@@ -32,14 +36,27 @@ const ProgressOverview = () => {
     { id: 3, title: "Simple Wood Cutting", category: "DIY", date: "1 week ago", time: "45 mins" }
   ];
 
+  const handleClearProgress = () => {
+    clearAppData();
+    // Force a re-render of components that depend on favorites
+    // by toggling a non-existent favorite or similar mechanism if needed.
+    // For now, a refresh will show the updated state.
+    window.location.reload(); 
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50">
       {/* Header */}
       <header className="bg-white/80 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-10">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center">
-            <TrendingUp className="h-6 w-6 text-green-600 mr-2" />
-            <h1 className="text-2xl font-bold">Your Progress</h1>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <TrendingUp className="h-6 w-6 text-green-600 mr-2" />
+              <h1 className="text-2xl font-bold">Your Progress</h1>
+            </div>
+            <Button variant="destructive" onClick={handleClearProgress}>
+              Clear All Progress
+            </Button>
           </div>
         </div>
       </header>
