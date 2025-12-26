@@ -17,14 +17,11 @@ workflows:
       - name: Add Android platform if missing
         script: |
           if [ ! -d "android" ]; then
-            npx cap add android
+            npx cap add android || echo "Android already exists"
           fi
 
       - name: Sync Capacitor
         script: npx cap sync android
-
-      - name: Fix gradlew permissions
-        script: chmod +x android/gradlew
 
       - name: Build Debug APK
         script: |
