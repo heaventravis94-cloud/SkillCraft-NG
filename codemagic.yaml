@@ -24,7 +24,7 @@ workflows:
         script: npx cap sync android
 
       - name: Build Debug APK
-        script: npx cap build android --debug
+        script: npx cap build android
 
     artifacts:
       - android/app/build/outputs/**/*.apk
