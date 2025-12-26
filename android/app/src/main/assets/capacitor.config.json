@@ -1,0 +1,6 @@
+{
+	"appId": "com.skillcraftng.app",
+	"appName": "SkillCraft NG",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
