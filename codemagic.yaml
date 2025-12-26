@@ -1,6 +1,6 @@
 workflows:
   android-capacitor:
-    name: Android Capacitor Debug Build
+    name: Android Capacitor Debug APK
     max_build_duration: 60
 
     environment:
@@ -9,22 +9,32 @@ workflows:
 
     scripts:
       - name: Install dependencies
-        script: npm install
+        script: |
+          npm ci
 
       - name: Build web
-        script: npm run build
-
-      - name: Add Android platform if missing
         script: |
-          if [ ! -d "android" ]; then
-            npx cap add android || echo "Android already exists"
-          fi
+          npm run build
+
+      - name: Force add Android platform
+        script: |
+          rm -rf android
+          npx cap add android
 
       - name: Sync Capacitor
-        script: npx cap sync android
+        script: |
+          npx cap sync android
+
+      - name: Verify gradlew exists
+        script: |
+          ls -la android
+          ls -la android/gradlew
 
       - name: Build Debug APK
-        script: npx cap build android
+        script: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug
 
     artifacts:
       - android/app/build/outputs/**/*.apk
