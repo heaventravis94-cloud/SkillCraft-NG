@@ -6,16 +6,16 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket, Laptop } from "lucide-react"; // Added Laptop icon
+import { BookOpen, Clock, Home, CookingPot, Wrench, Leaf, Wallet, HeartPulse, Scissors, Zap, Search, ZapIcon, Palette, Sprout, Rocket, Laptop } from "lucide-react";
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
 import { Input } from "@/components/ui/input";
-import { useFavorites } from "@/contexts/FavoritesContext"; // Import useFavorites
+import { useFavorites } from "@/contexts/FavoritesContext";
 
 const CategoryDetail = () => {
   const { id } = useParams();
   const [searchTerm, setSearchTerm] = useState("");
-  const { isFavorite, toggleFavorite, favoriteActivityIds } = useFavorites(); // Use the favorites hook
+  const { isFavorite, toggleFavorite, favoriteActivityIds } = useFavorites();
 
   // Map category IDs to titles and icons
   const categoryInfo: Record<string, { title: string; icon: JSX.Element; color: string }> = {
@@ -79,7 +79,7 @@ const CategoryDetail = () => {
       icon: <Rocket className="h-6 w-6" />,
       color: "bg-indigo-100 text-indigo-600"
     },
-    "tech-digital-skills": { // New Category Info
+    "tech-digital-skills": {
       title: "Tech & Digital Skills",
       icon: <Laptop className="h-6 w-6" />,
       color: "bg-gray-100 text-gray-600"
@@ -100,7 +100,7 @@ const CategoryDetail = () => {
     "creative": "Creative",
     "sustainability": "Sustainability",
     "future-ready": "Future Ready",
-    "tech-digital-skills": "Tech & Digital Skills" // New Category Map
+    "tech-digital-skills": "Tech & Digital Skills"
   };
 
   const categoryTitle = categoryInfo[id || ""]?.title || "Category";
@@ -116,17 +116,8 @@ const CategoryDetail = () => {
     activity.category.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // Mock progress data
-  const [activitiesProgress] = useState<Record<number, number>>({
-    1: 30,
-    13: 60,
-    26: 80,
-    41: 20,
-    76: 50, // Example for DIY
-    101: 10, // Example for Creative
-    126: 75, // Example for Sustainability
-    151: 40  // Example for Future Ready
-  });
+  // Mock progress data - removed to ensure clean state
+  const activitiesProgress: Record<number, number> = {}; // Empty object for no progress
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 pb-20">
@@ -213,7 +204,7 @@ const CategoryDetail = () => {
                     <Button 
                       variant="ghost" 
                       size="icon"
-                      onClick={() => toggleFavorite(activity.id)} // Use toggleFavorite from context
+                      onClick={() => toggleFavorite(activity.id)}
                     >
                       <ZapIcon className={`h-5 w-5 ${isFavorite(activity.id) ? "fill-yellow-400 text-yellow-400" : "text-gray-400"}`} />
                     </Button>

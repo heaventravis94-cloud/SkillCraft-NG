@@ -7,27 +7,18 @@ import { Progress } from "@/components/ui/progress";
 import { Star, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 import { activities } from "@/data/activities";
-import { useFavorites } from "@/contexts/FavoritesContext"; // Import useFavorites
+import { useFavorites } from "@/contexts/FavoritesContext";
 
 const Favorites = () => {
-  const { favoriteActivityIds, toggleFavorite } = useFavorites(); // Use the favorites hook
+  const { favoriteActivityIds, toggleFavorite } = useFavorites();
 
   // Filter activities based on favoriteActivityIds
   const favoritedActivities = activities.filter(activity => 
     favoriteActivityIds.includes(activity.id)
   );
 
-  // Mock progress data (for display purposes, actual progress tracking is a separate feature)
-  const activitiesProgress: Record<number, number> = {
-    1: 30,
-    13: 60,
-    26: 80,
-    41: 20,
-    76: 50,
-    101: 10,
-    126: 75,
-    151: 40
-  };
+  // Mock progress data - removed to ensure clean state
+  const activitiesProgress: Record<number, number> = {}; // Empty object for no progress
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50">
@@ -79,7 +70,7 @@ const Favorites = () => {
                       <Button 
                         variant="ghost" 
                         size="icon"
-                        onClick={() => toggleFavorite(activity.id)} // Allow removing from favorites
+                        onClick={() => toggleFavorite(activity.id)}
                       >
                         <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
                       </Button>
