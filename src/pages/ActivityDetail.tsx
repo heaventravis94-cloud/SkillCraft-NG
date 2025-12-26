@@ -33,6 +33,11 @@ const ActivityDetail = () => {
     (completedSteps.filter(Boolean).length / activity.steps.length) * 100
   );
 
+  const handleResetProgress = () => {
+    setCompletedSteps(Array(activity.steps.length).fill(false));
+    setNotes("");
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 pb-20">
       {/* Header */}
@@ -195,7 +200,7 @@ const ActivityDetail = () => {
                     "Mark Activity Complete"
                   )}
                 </Button>
-                <Button variant="outline" className="w-full">
+                <Button variant="outline" className="w-full" onClick={handleResetProgress}>
                   Reset Progress
                 </Button>
               </CardContent>

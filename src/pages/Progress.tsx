@@ -14,27 +14,23 @@ const ProgressOverview = () => {
   const { toggleFavorite } = useFavorites(); // Use useFavorites to trigger re-render after clearing
 
   const [stats] = useState({
-    totalActivities: activities.length, // Dynamically get total activities
-    completedActivities: 12, // Mock data for now
-    inProgressActivities: 8, // Mock data for now
-    totalHours: 24, // Mock data for now
-    streak: 7 // Mock data for now
+    totalActivities: activities.length, 
+    completedActivities: 0, // Reset to 0
+    inProgressActivities: 0, // Reset to 0
+    totalHours: 0, // Reset to 0
+    streak: 0 // Reset to 0
   });
 
   const categories = [
-    { name: "Life Skills", completed: 5, total: activities.filter(a => a.category === "Life Skills").length, color: "bg-blue-500" },
-    { name: "Cooking", completed: 3, total: activities.filter(a => a.category === "Cooking").length, color: "bg-orange-500" },
-    { name: "DIY", completed: 2, total: activities.filter(a => a.category === "DIY").length, color: "bg-purple-500" },
-    { name: "Creative", completed: 1, total: activities.filter(a => a.category === "Creative").length, color: "bg-pink-500" },
-    { name: "Sustainability", completed: 1, total: activities.filter(a => a.category === "Sustainability").length, color: "bg-green-500" },
-    { name: "Future Ready", completed: 1, total: activities.filter(a => a.category === "Future Ready").length, color: "bg-indigo-500" }
+    { name: "Life Skills", completed: 0, total: activities.filter(a => a.category === "Life Skills").length, color: "bg-blue-500" },
+    { name: "Cooking", completed: 0, total: activities.filter(a => a.category === "Cooking").length, color: "bg-orange-500" },
+    { name: "DIY", completed: 0, total: activities.filter(a => a.category === "DIY").length, color: "bg-purple-500" },
+    { name: "Creative", completed: 0, total: activities.filter(a => a.category === "Creative").length, color: "bg-pink-500" },
+    { name: "Sustainability", completed: 0, total: activities.filter(a => a.category === "Sustainability").length, color: "bg-green-500" },
+    { name: "Future Ready", completed: 0, total: activities.filter(a => a.category === "Future Ready").length, color: "bg-indigo-500" }
   ];
 
-  const recentActivities = [
-    { id: 1, title: "Basic Pasta Cooking", category: "Cooking", date: "2 days ago", time: "20 mins" },
-    { id: 2, title: "Laundry Sorting Basics", category: "Life Skills", date: "3 days ago", time: "15 mins" },
-    { id: 3, title: "Simple Wood Cutting", category: "DIY", date: "1 week ago", time: "45 mins" }
-  ];
+  const recentActivities: any[] = []; // Set to empty array
 
   const handleClearProgress = () => {
     clearAppData();
@@ -124,26 +120,30 @@ const ProgressOverview = () => {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="space-y-4">
-              {recentActivities.map((activity) => (
-                <div key={activity.id} className="flex items-center p-3 rounded-lg bg-gray-50">
-                  <div className="bg-green-100 p-2 rounded-lg mr-3">
-                    <CheckCircle className="h-5 w-5 text-green-600" />
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="font-medium">{activity.title}</h3>
-                    <div className="flex items-center text-sm text-gray-500">
-                      <Badge variant="outline" className="mr-2 text-xs">
-                        {activity.category}
-                      </Badge>
-                      <span>{activity.date}</span>
-                      <span className="mx-1">•</span>
-                      <span>{activity.time}</span>
+            {recentActivities.length === 0 ? (
+              <div className="text-center py-6 text-gray-500">No recent activities to display.</div>
+            ) : (
+              <div className="space-y-4">
+                {recentActivities.map((activity) => (
+                  <div key={activity.id} className="flex items-center p-3 rounded-lg bg-gray-50">
+                    <div className="bg-green-100 p-2 rounded-lg mr-3">
+                      <CheckCircle className="h-5 w-5 text-green-600" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-medium">{activity.title}</h3>
+                      <div className="flex items-center text-sm text-gray-500">
+                        <Badge variant="outline" className="mr-2 text-xs">
+                          {activity.category}
+                        </Badge>
+                        <span>{activity.date}</span>
+                        <span className="mx-1">•</span>
+                        <span>{activity.time}</span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
           </CardContent>
         </Card>
       </main>
